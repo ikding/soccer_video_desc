@@ -1,2 +1,6 @@
 [tool.isort]
 profile = "black"
+
+[tool.black]
+line-length = 88
+experimental_string_processing = true
