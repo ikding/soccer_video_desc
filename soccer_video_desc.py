@@ -21,6 +21,7 @@ def split_team_name(team_name: str):
 def soccer_game_description(
     date: str,
     division: str,
+    round: str | None,
     home_team: str,
     away_team: str,
     goals: None | dict[str, None | str | int],
@@ -76,14 +77,22 @@ def soccer_game_description(
 
             descriptions.append(description)
 
-    title = f"{date} {division}: {home_team} vs {away_team}\n"
-    subtitle = f"{date} {division}\n"
     final_scoreline = (
-        f"{team_dict['H']} {team_score['H']} - {team_score['A']} {team_dict['A']}\n"
+        f"{team_dict['H']} {team_score['H']} - {team_score['A']} {team_dict['A']}"
     )
+    title_segments = [final_scoreline, division, date]
+    if round is not None:
+        title_segments.insert(2, round)
+    title = " | ".join(title_segments) + "\n"
+    if len(title) > 100:
+        logger.warning(
+            f"Title is too long: {len(title)} characters (max 100 characters)"
+        )
+    subtitle = f"{date} {division}"
+    subtitle += f" ({round})\n" if round is not None else "\n"
 
     # Return the game description as a multiline string
-    all_strings = [title, subtitle, final_scoreline]
+    all_strings = [title, subtitle, final_scoreline + "\n"]
     all_strings.extend(descriptions)
     return "\n".join(all_strings)
 
@@ -98,12 +107,5 @@ if __name__ == "__main__":
             logger.error(e)
             raise e
 
-    description = soccer_game_description(
-        game_logs["date"],
-        game_logs["division"],
-        game_logs["home_team"],
-        game_logs["away_team"],
-        game_logs["goals"],
-    )
-
+    description = soccer_game_description(**game_logs)
     print(description)
