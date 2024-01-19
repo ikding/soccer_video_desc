@@ -42,6 +42,10 @@ def soccer_game_description(
             g = Goal(**goal)  # type: ignore
 
             team_score[g.scoring_team] += 1
+            if g.scoring_team == "H":
+                scoreline_str = f"[{team_score['H']}]-{team_score['A']}"
+            else:
+                scoreline_str = f"{team_score['H']}-[{team_score['A']}]"
 
             # Example: 3:27 Surf - Dominic (assist from Ayden): 1-0
             scoring_player_str = (
@@ -50,30 +54,36 @@ def soccer_game_description(
                 else g.scoring_player
             )
             description += (
-                f"{g.timestamp} {team_short_dict[g.scoring_team]} - "
-                f"{scoring_player_str}"
+                f"{g.timestamp} "
+                f"{team_short_dict['H']} {scoreline_str} {team_short_dict['A']}"
+                f" - {scoring_player_str}"
             )
             if g.assist_player is not None:
-                if g.assist_player in ["Penalty", "Free Kick"]:
-                    assist_player_str = f"({g.assist_player})"
-                elif isinstance(g.assist_player, int):
+                if isinstance(g.assist_player, int):
                     assist_player_str = f"(assist from #{g.assist_player})"
+                elif g.assist_player in [
+                    "Penalty",
+                    "Penalty Kick",
+                    "PK",
+                    "Free Kick",
+                    "Own Goal",
+                    "OG",
+                ]:
+                    assist_player_str = f"({g.assist_player})"
                 else:
                     assist_player_str = f"(assist from {g.assist_player})"
                 description += f" {assist_player_str}"
-
-            description += f": {team_score['H']}-{team_score['A']}"
 
             descriptions.append(description)
 
     title = f"{date} {division}: {home_team} vs {away_team}\n"
     subtitle = f"{date} {division}\n"
-    scoreline = (
-        f"{team_dict['H']} {team_score['H']} : {team_score['A']} {team_dict['A']}\n"
+    final_scoreline = (
+        f"{team_dict['H']} {team_score['H']} - {team_score['A']} {team_dict['A']}\n"
     )
 
     # Return the game description as a multiline string
-    all_strings = [title, subtitle, scoreline]
+    all_strings = [title, subtitle, final_scoreline]
     all_strings.extend(descriptions)
     return "\n".join(all_strings)
 
