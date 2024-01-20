@@ -1,3 +1,4 @@
+import argparse
 import logging
 import re
 from datetime import timedelta
@@ -146,10 +147,15 @@ def soccer_game_description(
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
+    parser = argparse.ArgumentParser(description="Get intput yaml file")
+    parser.add_argument(
+        "yaml_fpath", type=str, help="Yaml file path containing game logs"
+    )
+    args = parser.parse_args()
 
-    with open("example.yaml", "r") as stream:
+    with open(args.yaml_fpath, "r") as f:
         try:
-            game_logs = yaml.safe_load(stream)
+            game_logs = yaml.safe_load(f)
         except yaml.YAMLError as e:
             logger.error(e)
             raise e
