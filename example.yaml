@@ -1,38 +1,38 @@
-date: "2023-11-04"
-division: "Norcal U12 Premier"
+date: 2023-11-04
+division: Norcal U12 Premier
 round: null
-home_team: "Bay Area Surf 13B Pre-MLS"
-away_team: "Palo Alto SC 12B Gold"
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Palo Alto SC 12B Gold
 goals:
-  - timestamp: "3:27"
-    scoring_team: "H"
-    scoring_player: "Dominic"
-    assist_player: "Ayden"
-  - timestamp: "4:47"
-    scoring_team: "H"
-    scoring_player: "Galvan"
+  - timestamp: 3:27
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Ayden
+  - timestamp: 4:47
+    scoring_team: H
+    scoring_player: Galvan
     assist_player: null
-  - timestamp: "7:58"
-    scoring_team: "H"
-    scoring_player: "Dominic"
-    assist_player: "Joshua"
-  - timestamp: "8:33"
-    scoring_team: "H"
-    scoring_player: "Dominic"
-    assist_player: "Ryan"
-  - timestamp: "9:00"
-    scoring_team: "H"
-    scoring_player: "Cameron"
-    assist_player: "Owen"
-  - timestamp: "10:03"
-    scoring_team: "A"
+  - timestamp: 7:58
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Joshua
+  - timestamp: 8:33
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Ryan
+  - timestamp: 9:00
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Owen
+  - timestamp: 10:03
+    scoring_team: A
     scoring_player: 27
     assist_player: 70
-  - timestamp: "11:02"
-    scoring_team: "A"
+  - timestamp: 11:02
+    scoring_team: A
     scoring_player: 90
     assist_player: 6
-  - timestamp: "11:32"
-    scoring_team: "H"
-    scoring_player: "Dominic"
+  - timestamp: 11:32
+    scoring_team: H
+    scoring_player: Dominic
     assist_player: null

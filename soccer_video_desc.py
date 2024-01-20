@@ -1,5 +1,6 @@
 import logging
 import re
+from datetime import timedelta
 from typing import NamedTuple
 
 import yaml
@@ -8,14 +9,45 @@ logger = logging.getLogger(__name__)
 
 
 class Goal(NamedTuple):
-    timestamp: str  # video time stamp (MM:SS)
+    timestamp: str | int  # video time stamp (MM:SS)
     scoring_team: str  # this can only be "H" (home) or "A" (away)
     scoring_player: str
     assist_player: str | None
 
 
-def split_team_name(team_name: str):
+def split_team_name(team_name: str) -> str:
+    """
+    Splits the team name at the first occurrence of a pattern that matches one
+    or two digits followed by either "B" or "G".
+
+    Args:
+        team_name (str): The team name string to split.
+
+    Returns:
+        str: The team name split at the first occurrence of the pattern.
+    """
     return re.split(r"\s*\d{2}[BG]\s*", team_name)[0]
+
+
+def parse_timestamp(timestamp: int | str) -> str:
+    """
+    Converts a timestamp to a string representation.
+
+    If the timestamp is already a string, it is returned as is. If the timestamp
+    is an integer, it is assumed to be in seconds and is converted to a string
+    in the format 'MM:SS'.
+
+    Args:
+        timestamp (int | str): The timestamp to parse, either as an integer
+        number of seconds or as a string.
+
+    Returns:
+        str: The timestamp as a string in the format 'MM:SS'.
+    """
+    if isinstance(timestamp, str):
+        return timestamp
+    else:
+        return ":".join(str(timedelta(seconds=timestamp)).split(":")[1:]).lstrip("0")
 
 
 def soccer_game_description(
@@ -25,8 +57,23 @@ def soccer_game_description(
     home_team: str,
     away_team: str,
     goals: None | dict[str, None | str | int],
-):
-    """Generate a description of a soccer game."""
+) -> str:
+    """
+    Generate a description of a soccer game.
+
+    Args:
+        date (str): The date of the game.
+        division (str): The division in which the game was played.
+        round (str | None): The round of the game, if applicable.
+        home_team (str): The name of the home team.
+        away_team (str): The name of the away team.
+        goals (None | dict[str, None | str | int]): A dictionary containing information
+            about each goal scored in the game.
+
+    Returns:
+        str: A string description of the game, including the final scoreline, the date,
+        the division, the round (if applicable), and a description of each goal.
+    """
     # Initialize variables for the game description
     team_dict: dict[str, str] = {"H": home_team, "A": away_team}
     team_short_dict: dict[str, str] = {
@@ -55,7 +102,7 @@ def soccer_game_description(
                 else g.scoring_player
             )
             description += (
-                f"{g.timestamp} "
+                f"{parse_timestamp(g.timestamp)} "
                 f"{team_short_dict['H']} {scoreline_str} {team_short_dict['A']}"
                 f" - {scoring_player_str}"
             )
@@ -80,7 +127,7 @@ def soccer_game_description(
     final_scoreline = (
         f"{team_dict['H']} {team_score['H']} - {team_score['A']} {team_dict['A']}"
     )
-    title_segments = [final_scoreline, division, date]
+    title_segments = [final_scoreline, division, str(date)]
     if round is not None:
         title_segments.insert(2, round)
     title = " | ".join(title_segments) + "\n"
