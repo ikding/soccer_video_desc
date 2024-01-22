@@ -126,7 +126,7 @@ def soccer_game_description(
             descriptions.append(description)
 
     final_scoreline = (
-        f"{team_dict['H']} {team_score['H']} - {team_score['A']} {team_dict['A']}"
+        f"{team_dict['H']} {team_score['H']}-{team_score['A']} {team_dict['A']}"
     )
     title_segments = [final_scoreline, division, str(date)]
     if round is not None:
