@@ -2,7 +2,13 @@ from pathlib import Path
 
 import yaml
 
-from soccer_video_desc import parse_timestamp, soccer_game_description, split_team_name
+from soccer_video_desc import (
+    Game,
+    Goal,
+    parse_timestamp,
+    soccer_game_description,
+    split_team_name,
+)
 
 
 def test_split_team_name():
@@ -20,9 +26,13 @@ def test_soccer_game_description_regular_season():
     with open(
         Path(__file__).parent.resolve() / "examples" / "regular_season.yaml", "r"
     ) as f:
-        game = yaml.safe_load(f)
+        game_logs = yaml.safe_load(f)
 
-    description = soccer_game_description(**game)
+    goals_list = game_logs.pop("goals", None)
+    goals = [Goal(**goal) for goal in goals_list]
+    game = Game(**game_logs)
+
+    description = soccer_game_description(game, goals)
     assert "\n" + description + "\n" == """
 Bay Area Surf 13B Pre-MLS 6-2 Palo Alto SC 12B Gold | Norcal U12 Premier | 2023-11-04
 
@@ -45,9 +55,13 @@ def test_soccer_game_description_tournament():
     with open(
         Path(__file__).parent.resolve() / "examples" / "tournament.yaml", "r"
     ) as f:
-        game = yaml.safe_load(f)
+        game_logs = yaml.safe_load(f)
 
-    description = soccer_game_description(**game)
+    goals_list = game_logs.pop("goals", None)
+    goals = [Goal(**goal) for goal in goals_list]
+    game = Game(**game_logs)
+
+    description = soccer_game_description(game, goals)
     assert "\n" + description + "\n" == """
 Bay Area Surf 13B Pre-MLS 4-0 CVFA 13B I | LV Mayor's Cup U11 1st Div | Final | 2023-10-29
 

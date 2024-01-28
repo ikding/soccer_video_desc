@@ -2,11 +2,35 @@ import argparse
 import logging
 import re
 from dataclasses import dataclass
-from datetime import timedelta
+from datetime import date, timedelta
 
 import yaml
 
 logger = logging.getLogger(__name__)
+
+
+@dataclass
+class Game:
+    """
+    A dataclass representing a soccer game.
+
+    Attributes:
+        date (date): The date of the game.
+        division (str): The division in which the game was played.
+        home_team (str): The name of the home team.
+        away_team (str): The name of the away team.
+        round (str | None): The round of the game, if applicable.
+        home_team_abbrev (str | None): The abbreviation of the home team's name, if any.
+        away_team_abbrev (str | None): The abbreviation of the away team's name, if any.
+    """
+
+    date: date
+    division: str
+    home_team: str
+    away_team: str
+    round: str | None = None
+    home_team_abbrev: str | None = None
+    away_team_abbrev: str | None = None
 
 
 @dataclass
@@ -66,14 +90,7 @@ def parse_timestamp(timestamp: int | str) -> str:
         return ":".join(str(timedelta(seconds=timestamp)).split(":")[1:]).lstrip("0")
 
 
-def soccer_game_description(
-    date: str,
-    division: str,
-    round: str | None,
-    home_team: str,
-    away_team: str,
-    goals: None | dict[str, None | str | int],
-) -> str:
+def soccer_game_description(game: Game, goals: None | list[Goal]) -> str:
     """
     Generate a description of a soccer game.
 
@@ -91,10 +108,18 @@ def soccer_game_description(
         the division, the round (if applicable), and a description of each goal.
     """
     # Initialize variables for the game description
-    team_dict: dict[str, str] = {"H": home_team, "A": away_team}
+    team_dict: dict[str, str] = {"H": game.home_team, "A": game.away_team}
     team_short_dict: dict[str, str] = {
-        "H": split_team_name(home_team),
-        "A": split_team_name(away_team),
+        "H": (
+            game.home_team_abbrev
+            if game.home_team_abbrev
+            else split_team_name(game.home_team)
+        ),
+        "A": (
+            game.away_team_abbrev
+            if game.away_team_abbrev
+            else split_team_name(game.away_team)
+        ),
     }
     team_score: dict[str, int] = {"H": 0, "A": 0}
     descriptions = []
@@ -103,29 +128,28 @@ def soccer_game_description(
     if goals is not None:
         for goal in goals:
             description = ""
-            g = Goal(**goal)  # type: ignore
 
-            team_score[g.scoring_team] += 1
-            if g.scoring_team == "H":
+            team_score[goal.scoring_team] += 1
+            if goal.scoring_team == "H":
                 scoreline_str = f"[{team_score['H']}]-{team_score['A']}"
             else:
                 scoreline_str = f"{team_score['H']}-[{team_score['A']}]"
 
             # Example: 3:27 Surf - Dominic (assist from Ayden): 1-0
             scoring_player_str = (
-                f"#{g.scoring_player}"
-                if isinstance(g.scoring_player, int)
-                else g.scoring_player
+                f"#{goal.scoring_player}"
+                if isinstance(goal.scoring_player, int)
+                else goal.scoring_player
             )
             description += (
-                f"{parse_timestamp(g.timestamp)} "
+                f"{parse_timestamp(goal.timestamp)} "
                 f"{team_short_dict['H']} {scoreline_str} {team_short_dict['A']}"
                 f" - {scoring_player_str}"
             )
-            if g.assist_player is not None:
-                if isinstance(g.assist_player, int):
-                    assist_player_str = f"(assist from #{g.assist_player})"
-                elif g.assist_player in [
+            if goal.assist_player is not None:
+                if isinstance(goal.assist_player, int):
+                    assist_player_str = f"(assist from #{goal.assist_player})"
+                elif goal.assist_player in [
                     "Penalty",
                     "Penalty Kick",
                     "PK",
@@ -133,29 +157,29 @@ def soccer_game_description(
                     "Own Goal",
                     "OG",
                 ]:
-                    assist_player_str = f"({g.assist_player})"
+                    assist_player_str = f"({goal.assist_player})"
                 else:
-                    assist_player_str = f"(assist from {g.assist_player})"
+                    assist_player_str = f"(assist from {goal.assist_player})"
                 description += f" {assist_player_str}"
 
-            if hasattr(g, "minute") and g.minute is not None:
-                description += f" {g.minute}'"
+            if hasattr(goal, "minute") and goal.minute is not None:
+                description += f" {goal.minute}'"
 
             descriptions.append(description)
 
     final_scoreline = (
         f"{team_dict['H']} {team_score['H']}-{team_score['A']} {team_dict['A']}"
     )
-    title_segments = [final_scoreline, division, str(date)]
-    if round is not None:
-        title_segments.insert(2, round)
+    title_segments = [final_scoreline, game.division, str(game.date)]
+    if game.round is not None:
+        title_segments.insert(2, game.round)
     title = " | ".join(title_segments) + "\n"
     if len(title) > 100:
         logger.warning(
             f"Title is too long: {len(title)} characters (max 100 characters)"
         )
-    subtitle = f"{date} {division}"
-    subtitle += f" ({round})\n" if round is not None else "\n"
+    subtitle = f"{game.date} {game.division}"
+    subtitle += f" ({game.round})\n" if game.round is not None else "\n"
 
     # Return the game description as a multiline string
     all_strings = [title, subtitle, final_scoreline + "\n"]
@@ -171,6 +195,9 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
+    # with open("examples/regular_season.yaml") as f:
+    #     game_logs = yaml.safe_load(f)
+
     with open(args.yaml_fpath, "r") as f:
         try:
             game_logs = yaml.safe_load(f)
@@ -178,5 +205,9 @@ if __name__ == "__main__":
             logger.error(e)
             raise e
 
-    description = soccer_game_description(**game_logs)
-    print(description)
+    goals_list = game_logs.pop("goals", None)
+    goals = [Goal(**goal) for goal in goals_list]
+    game = Game(**game_logs)
+
+    description = soccer_game_description(game, goals)
+    logger.info(f"\n{description}\n")
