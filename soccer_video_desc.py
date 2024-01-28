@@ -1,19 +1,34 @@
 import argparse
 import logging
 import re
+from dataclasses import dataclass
 from datetime import timedelta
-from typing import NamedTuple
 
 import yaml
 
 logger = logging.getLogger(__name__)
 
 
-class Goal(NamedTuple):
-    timestamp: str | int  # video time stamp (MM:SS)
-    scoring_team: str  # this can only be "H" (home) or "A" (away)
+@dataclass
+class Goal:
+    """
+    A dataclass representing a goal in a soccer game.
+
+    Attributes:
+        timestamp (str | int): The video timestamp when the goal was scored, in the
+            format 'MM:SS'.
+        scoring_team (str): The team that scored the goal. This can only be 'H' (home)
+            or 'A' (away).
+        scoring_player (str): The player who scored the goal.
+        assist_player (str | None): The player who assisted the goal, if any.
+        minute (int | None): The game minute when the goal was scored, if known.
+    """
+
+    timestamp: str | int
+    scoring_team: str
     scoring_player: str
-    assist_player: str | None
+    assist_player: str | None = None
+    minute: int | None = None
 
 
 def split_team_name(team_name: str) -> str:
@@ -39,8 +54,8 @@ def parse_timestamp(timestamp: int | str) -> str:
     in the format 'MM:SS'.
 
     Args:
-        timestamp (int | str): The timestamp to parse, either as an integer
-        number of seconds or as a string.
+        timestamp (int | str): The timestamp to parse, either as an integer number of
+            seconds or as a string.
 
     Returns:
         str: The timestamp as a string in the format 'MM:SS'.
@@ -122,6 +137,9 @@ def soccer_game_description(
                 else:
                     assist_player_str = f"(assist from {g.assist_player})"
                 description += f" {assist_player_str}"
+
+            if hasattr(g, "minute") and g.minute is not None:
+                description += f" {g.minute}'"
 
             descriptions.append(description)
 
