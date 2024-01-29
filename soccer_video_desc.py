@@ -55,6 +55,13 @@ class Goal:
     minute: int | None = None
 
 
+scoring_abbrev: dict[str, str] = {
+    "PK": "penalty kick",
+    "FK": "free kick",
+    "OG": "own goal",
+}
+
+
 def split_team_name(team_name: str) -> str:
     """
     Splits the team name at the first occurrence of a pattern that matches two or four
@@ -149,15 +156,8 @@ def soccer_game_description(game: Game, goals: None | list[Goal]) -> str:
             if goal.assist_player is not None:
                 if isinstance(goal.assist_player, int):
                     assist_player_str = f"(assist from #{goal.assist_player})"
-                elif goal.assist_player in [
-                    "Penalty",
-                    "Penalty Kick",
-                    "PK",
-                    "Free Kick",
-                    "Own Goal",
-                    "OG",
-                ]:
-                    assist_player_str = f"({goal.assist_player})"
+                elif goal.assist_player.upper() in scoring_abbrev.keys():
+                    assist_player_str = f"({scoring_abbrev[goal.assist_player]})"
                 else:
                     assist_player_str = f"(assist from {goal.assist_player})"
                 description += f" {assist_player_str}"

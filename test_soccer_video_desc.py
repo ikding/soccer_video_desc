@@ -1,5 +1,3 @@
-from pathlib import Path
-
 import pytest
 import yaml
 
@@ -46,7 +44,6 @@ def test_parse_timestamp(input, expected):
             """
 date: 2023-11-04
 division: Norcal U12 Premier
-round: null
 home_team: Bay Area Surf 13B Pre-MLS
 away_team: Palo Alto SC 12B Gold
 goals:
@@ -54,50 +51,40 @@ goals:
     scoring_team: H
     scoring_player: Dominic
     assist_player: Ayden
+    minute: 4
   - timestamp: 4:47
     scoring_team: H
     scoring_player: Galvan
-    assist_player: null
-  - timestamp: 7:58
-    scoring_team: H
-    scoring_player: Dominic
-    assist_player: Joshua
-  - timestamp: 8:33
-    scoring_team: H
-    scoring_player: Dominic
-    assist_player: Ryan
-  - timestamp: 9:00
-    scoring_team: H
-    scoring_player: Cameron
-    assist_player: Owen
+    assist_player: PK
+    minute: 5
   - timestamp: 10:03
     scoring_team: A
     scoring_player: 27
     assist_player: 70
+    minute: 11
   - timestamp: 11:02
     scoring_team: A
     scoring_player: 90
-    assist_player: 6
+    assist_player: FK
+    minute: 12
   - timestamp: 11:32
     scoring_team: H
-    scoring_player: Dominic
-    assist_player: null
+    scoring_player: null
+    assist_player: OG
+    minute: 13
             """,
             """
-Bay Area Surf 13B Pre-MLS 6-2 Palo Alto SC 12B Gold | Norcal U12 Premier | 2023-11-04
+Bay Area Surf 13B Pre-MLS 3-2 Palo Alto SC 12B Gold | Norcal U12 Premier | 2023-11-04
 
 2023-11-04 Norcal U12 Premier
 
-Bay Area Surf 13B Pre-MLS 6-2 Palo Alto SC 12B Gold
+Bay Area Surf 13B Pre-MLS 3-2 Palo Alto SC 12B Gold
 
-3:27 Bay Area Surf [1]-0 Palo Alto SC - Dominic (assist from Ayden)
-4:47 Bay Area Surf [2]-0 Palo Alto SC - Galvan
-7:58 Bay Area Surf [3]-0 Palo Alto SC - Dominic (assist from Joshua)
-8:33 Bay Area Surf [4]-0 Palo Alto SC - Dominic (assist from Ryan)
-9:00 Bay Area Surf [5]-0 Palo Alto SC - Cameron (assist from Owen)
-10:03 Bay Area Surf 5-[1] Palo Alto SC - #27 (assist from #70)
-11:02 Bay Area Surf 5-[2] Palo Alto SC - #90 (assist from #6)
-11:32 Bay Area Surf [6]-2 Palo Alto SC - Dominic""",
+3:27 Bay Area Surf [1]-0 Palo Alto SC - Dominic (assist from Ayden) 4'
+4:47 Bay Area Surf [2]-0 Palo Alto SC - Galvan (penalty kick) 5'
+10:03 Bay Area Surf 2-[1] Palo Alto SC - #27 (assist from #70) 11'
+11:02 Bay Area Surf 2-[2] Palo Alto SC - #90 (free kick) 12'
+11:32 Bay Area Surf [3]-2 Palo Alto SC - None (own goal) 13'""",
             id="regular season",
         ),
         pytest.param(
@@ -106,36 +93,42 @@ date: 2023-10-29
 division: LV Mayor's Cup U11 1st Div
 round: Final
 home_team: Bay Area Surf 13B Pre-MLS
-away_team: CVFA 13B I
+home_team_abbrev: Surf
+away_team: CV Futbol Academy 13B I
+away_team_abbrev: CVFA
 goals:
   - timestamp: 3:23
     scoring_team: H
     scoring_player: Eli
-    assist_player: Free Kick
+    assist_player: FK
+    minute: 13
   - timestamp: 4:26
     scoring_team: H
     scoring_player: Galvan
     assist_player: Alexander
+    minute: 19
   - timestamp: 7:58
     scoring_team: H
     scoring_player: Dominic
     assist_player: Galvan
+    minute: 29
   - timestamp: 9:04
     scoring_team: H
     scoring_player: Dominic
     assist_player: Alexander
+    minute: 35
             """,
             """
-Bay Area Surf 13B Pre-MLS 4-0 CVFA 13B I | LV Mayor's Cup U11 1st Div | Final | 2023-10-29
+Bay Area Surf 13B Pre-MLS 4-0 CV Futbol Academy 13B I | LV Mayor's Cup U11 1st Div | Final | 2023-10-29
 
 2023-10-29 LV Mayor's Cup U11 1st Div (Final)
 
-Bay Area Surf 13B Pre-MLS 4-0 CVFA 13B I
+Bay Area Surf 13B Pre-MLS 4-0 CV Futbol Academy 13B I
 
-3:23 Bay Area Surf [1]-0 CVFA - Eli (Free Kick)
-4:26 Bay Area Surf [2]-0 CVFA - Galvan (assist from Alexander)
-7:58 Bay Area Surf [3]-0 CVFA - Dominic (assist from Galvan)
-9:04 Bay Area Surf [4]-0 CVFA - Dominic (assist from Alexander)""",
+3:23 Surf [1]-0 CVFA - Eli (free kick) 13'
+4:26 Surf [2]-0 CVFA - Galvan (assist from Alexander) 19'
+7:58 Surf [3]-0 CVFA - Dominic (assist from Galvan) 29'
+9:04 Surf [4]-0 CVFA - Dominic (assist from Alexander) 35'""",
             id="tournament",
         ),
     ],
