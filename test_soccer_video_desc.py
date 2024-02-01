@@ -116,7 +116,7 @@ goals:
     scoring_team: H
     scoring_player: Dominic
     assist_player: Alexander
-    minute: 35
+    minute: 60+2
             """,
             """
 Bay Area Surf 13B Pre-MLS 4-0 CV Futbol Academy 13B I | LV Mayor's Cup U11 1st Div | Final | 2023-10-29
@@ -128,7 +128,7 @@ Bay Area Surf 13B Pre-MLS 4-0 CV Futbol Academy 13B I
 3:23 Surf [1]-0 CVFA - Eli (free kick) 13'
 4:26 Surf [2]-0 CVFA - Galvan (assist from Alexander) 19'
 7:58 Surf [3]-0 CVFA - Dominic (assist from Galvan) 29'
-9:04 Surf [4]-0 CVFA - Dominic (assist from Alexander) 35'""",
+9:04 Surf [4]-0 CVFA - Dominic (assist from Alexander) 60+2'""",
             id="tournament",
         ),
     ],
