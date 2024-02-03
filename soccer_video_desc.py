@@ -178,6 +178,17 @@ def soccer_game_description(game: Game, goals: None | list[Goal]) -> str:
         logger.warning(
             f"Title is too long: {len(title)} characters (max 100 characters)"
         )
+        # abbreviated title
+        new_title = "|".join(title_segments) + "\n"
+        if len(new_title) > 100:
+            pass
+        else:
+            logger.info(
+                "Abbreviating title to fit within 100 characters. New length:"
+                f" {len(new_title)}"
+            )
+            title = new_title
+
     subtitle = f"{game.date} {game.division}"
     subtitle += f" ({game.round})\n" if game.round is not None else "\n"
 
