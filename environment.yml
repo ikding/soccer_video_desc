@@ -1,0 +1,12 @@
+name: svd
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - black
+  - flake8
+  - mypy
+  - isort
+  - pyyaml
+  - pytest
+  - ipython
