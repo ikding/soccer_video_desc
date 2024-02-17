@@ -65,7 +65,7 @@ scoring_abbrev: dict[str, str] = {
 def split_team_name(team_name: str) -> str:
     """
     Splits the team name at the first occurrence of a pattern that matches two or four
-    digits, optionally followed by either "B" or "G".
+    digits, optionally lead by or followed by either "B" or "G".
 
     Args:
         team_name (str): The team name string to split.
@@ -73,7 +73,7 @@ def split_team_name(team_name: str) -> str:
     Returns:
         str: The team name split at the first occurrence of the pattern.
     """
-    return re.split(r"\s*\d{2,4}[BG]?\s*", team_name)[0]
+    return re.split(r"\s*[BG]?\d{2,4}[BG]?\s*", team_name)[0]
 
 
 def parse_timestamp(timestamp: int | str) -> str:
