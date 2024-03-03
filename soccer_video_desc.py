@@ -59,6 +59,7 @@ scoring_abbrev: dict[str, str] = {
     "PK": "penalty kick",
     "FK": "free kick",
     "OG": "own goal",
+    "CK": "corner kick",
 }
 
 
