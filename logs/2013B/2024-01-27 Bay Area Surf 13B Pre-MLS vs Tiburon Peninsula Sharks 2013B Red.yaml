@@ -1,0 +1,32 @@
+date: 2024-01-27
+division: NorCal State Cup U11
+round: Prem 2 Q/F
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Tiburon Sharks 2013B
+away_team_abbrev: TPSC
+goals:
+  - timestamp: 3:13
+    scoring_team: H
+    scoring_player: null
+    assist_player: OG
+    minute: 18
+  - timestamp: 6:40
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Christian
+    minute: 34
+  - timestamp: 7:50
+    scoring_team: H
+    scoring_player: null
+    assist_player: OG
+    minute: 43
+  - timestamp: 8:39
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Eli
+    minute: 47
+  - timestamp: 10:59
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Joshua
+    minute: 60+3

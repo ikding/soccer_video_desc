@@ -1,0 +1,27 @@
+date: 2024-02-25
+division: NorCal U11 State Cup
+round: Prem 4 Final
+home_team: Bay Area Surf 13B Pre-MLS-2
+away_team: Albion SC Merced B13
+away_team_abbrev: Albion SC
+goals:
+  - timestamp: 22:36
+    scoring_team: A
+    scoring_player: 22
+    assist_player: 8
+    minute: 37
+  - timestamp: 26:22
+    scoring_team: A
+    scoring_player: 24
+    assist_player: 22
+    minute: 43
+  - timestamp: 30:11
+    scoring_team: A
+    scoring_player: 4
+    assist_player: 24
+    minute: 50
+  - timestamp: 35:36
+    scoring_team: H
+    scoring_player: Dilan
+    assist_player: Alvin
+    minute: 58

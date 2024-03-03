@@ -1,0 +1,17 @@
+date: 2023-10-15
+division: NorCal State Cup U11
+round: null
+home_team: Bay Area Surf 13B Pre-MLS 2
+away_team: De Anza Force Elite 13B
+goals:
+  - timestamp: 1:15
+    scoring_team: A
+    scoring_player: 22
+    assist_player: 7
+  - timestamp: 5:14
+    scoring_team: H
+    scoring_player: Dilan
+    assist_player: Alvin
+  - timestamp: 8:20
+    scoring_team: A
+    scoring_player: 3

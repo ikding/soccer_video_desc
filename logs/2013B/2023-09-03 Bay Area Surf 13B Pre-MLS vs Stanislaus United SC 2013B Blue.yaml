@@ -1,0 +1,19 @@
+date: 2023-09-03
+division: Ajax Labor Day U11 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Stanislaus United SC 2013B Blue
+away_team_abbrev: SUSC
+goals:
+  - timestamp: 1:11
+    scoring_team: A
+    scoring_player: 30
+    assist_player: 9
+  - timestamp: 2:05
+    scoring_team: H
+    scoring_player: Aleander
+    assist_player: Galvan
+  - timestamp: 4:06
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: Owen

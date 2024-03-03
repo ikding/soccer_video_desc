@@ -1,0 +1,20 @@
+date: 2023-10-07
+division: NorCal U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+home_team_abbrev: Bay Area Surf 13B
+away_team: Bay Area Surf 12B Academy I
+away_team_abbrev: Bay Area Surf 12B
+goals:
+  - timestamp: 4:37
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Alexander
+  - timestamp: 5:16
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Ayden
+  - timestamp: 9:14
+    scoring_team: A
+    scoring_player: 40
+    assist_player: 38

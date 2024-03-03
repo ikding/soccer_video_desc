@@ -1,0 +1,21 @@
+date: 2024-02-18
+division: NorCal Supercopa
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: San Jose Rush 13B Premier
+goals:
+  - timestamp: 0:32
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Dominic
+    minute: 4
+  - timestamp: 1:41
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Dominic
+    minute: 10
+  - timestamp: 8:55
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Ayden
+    minute: 54

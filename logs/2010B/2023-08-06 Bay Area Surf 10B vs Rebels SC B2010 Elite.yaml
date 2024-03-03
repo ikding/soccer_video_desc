@@ -1,0 +1,22 @@
+date: 2023-08-06
+division: Surf Cup U14 Best-of-the-Best
+round: null
+home_team: Bay Area Surf 10B
+away_team: Rebels SC B2010 Elite
+goals:
+  - timestamp: 0:28
+    scoring_team: A
+    scoring_player: 9
+    assist_player: 4
+  - timestamp: 1:45
+    scoring_team: A
+    scoring_player: 30
+    assist_player: 22
+  - timestamp: 2:42
+    scoring_team: A
+    scoring_player: 22
+    assist_player: 4
+  - timestamp: 7:04
+    scoring_team: A
+    scoring_player: 7
+    assist_player: 18

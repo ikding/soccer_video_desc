@@ -1,0 +1,28 @@
+date: 2023-08-26
+division: NorCal U11 Premier 2
+round: null
+home_team: Bay Area Surf 13B Pre-MLS 2
+away_team: SF Glens 13B Pre-MLS Saints
+goals:
+  - timestamp: 0:23
+    scoring_team: H
+    scoring_player: Liam
+  - timestamp: 3:18
+    scoring_team: H
+    scoring_player: Liam
+  - timestamp: 3:42
+    scoring_team: H
+    scoring_player: Gabriel
+    assist_player: Olli
+  - timestamp: 7:10
+    scoring_team: H
+    scoring_player: Advait
+    assist_player: Arman
+  - timestamp: 9:15
+    scoring_team: H
+    scoring_player: Dilan
+    assist_player: Carter
+  - timestamp: 10:45
+    scoring_team: A
+    scoring_player: 14
+    assist_player: 18

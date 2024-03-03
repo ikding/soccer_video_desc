@@ -1,0 +1,16 @@
+date: 2023-12-09
+division: MVLA Winter Cup U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+home_team_abbrev: Bay Area Surf 13B
+away_team: Bay Area Surf 12B Academy I
+away_team_abbrev: Bay Area Surf 12B
+goals:
+  - timestamp: 0:44
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Ryan
+  - timestamp: 7:10
+    scoring_team: A
+    scoring_player: 29
+    assist_player: 24

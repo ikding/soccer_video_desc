@@ -1,0 +1,18 @@
+date: 2023-12-02
+division: NorCal U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: ECFC Salinas 12B Black
+goals:
+  - timestamp: 5:28
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Luke
+  - timestamp: 6:37
+    scoring_team: A
+    scoring_player: 7
+    assist_player: PK
+  - timestamp: 10:58
+    scoring_team: A
+    scoring_player: 13
+    assist_player: FK

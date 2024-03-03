@@ -1,0 +1,25 @@
+date: 2023-09-02
+division: Ajax Labor Day U11 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: De Anza Force 13B Elite
+goals:
+  - timestamp: 3:30
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: PK
+  - timestamp: 4:28
+    scoring_team: H
+    scoring_player: Christian
+  - timestamp: 5:03
+    scoring_team: H
+    scoring_player: Ayden
+  - timestamp: 5:35
+    scoring_team: H
+    scoring_player: Owen
+    assist_player: Eli
+  - timestamp: 8:38
+    scoring_team: H
+    scoring_player: Alexander
+
+

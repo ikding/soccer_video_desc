@@ -1,0 +1,39 @@
+date: 2023-11-18
+division: NorCal U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Santa Cruz Mid-County Surf 12B
+goals:
+  - timestamp: 7:04
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Ryan
+  - timestamp: 7:34
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: FK
+  - timestamp: 8:02
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Eli
+  - timestamp: 8:30
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Alexander
+  - timestamp: 9:03
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Christian
+  - timestamp: 10:40
+    scoring_team: H
+    scoring_player: Ayden
+    assist_player: Ryan
+  - timestamp: 11:21
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Luke
+  - timestamp: 12:27
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Luke
+

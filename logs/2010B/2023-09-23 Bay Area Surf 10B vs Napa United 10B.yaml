@@ -1,0 +1,21 @@
+date: 2023-09-23
+division: MLS Next U14
+round: null
+home_team: Bay Area Surf 10B
+away_team: Napa United 10B
+goals:
+  - timestamp: 6:39
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Jarod
+  - timestamp: 7:36
+    scoring_team: H
+    scoring_player: Ayden
+  - timestamp: 9:18
+    scoring_team: A
+    scoring_player: 23
+    assist_player: 30
+  - timestamp: 10:49
+    scoring_team: H
+    scoring_player: Gio
+    assist_player: Ian

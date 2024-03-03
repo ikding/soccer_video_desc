@@ -1,0 +1,24 @@
+date: 2024-02-03
+division: NorCal State Cup U11
+round: Prem 2 S/F
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Newark FC 13B Pre-ECNL
+away_team_abbrev: Newark FC
+goals:
+  - timestamp: 3:44
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: Christian
+    minute: 30
+  - timestamp: 7:40
+    scoring_team: H
+    scoring_player: Ayden
+    minute: 53
+  - timestamp: 8:17
+    scoring_team: H
+    scoring_player: Dominic
+    minute: 55
+  - timestamp: 8:47
+    scoring_team: H
+    scoring_player: Alexander
+    minute: 57

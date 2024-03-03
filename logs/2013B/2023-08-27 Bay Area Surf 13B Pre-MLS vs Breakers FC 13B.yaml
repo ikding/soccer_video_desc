@@ -1,0 +1,64 @@
+date: 2023-08-27
+division: NorCal State Cup U11
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Breakers FC 13B
+goals:
+  - timestamp: 0:42
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Christian
+  - timestamp: 1:50
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Owen
+  - timestamp: 2:30
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: PK
+  - timestamp: 3:56
+    scoring_team: H
+    scoring_player: Luke
+    assist_player: PK
+  - timestamp: 4:45
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Galvan
+  - timestamp: 5:45
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Alexander
+  - timestamp: 6:12
+    scoring_team: H
+    scoring_player: Dominic
+  - timestamp: 6:45
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Dominic
+  - timestamp: 7:45
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Eli
+  - timestamp: 8:19
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Eli
+  - timestamp: 8:47
+    scoring_team: H
+    scoring_player: Luke
+    assist_player: Eli
+  - timestamp: 10:46
+    scoring_team: A
+    scoring_player: 3
+  - timestamp: 11:05
+    scoring_team: H
+    scoring_player: Ryan
+    assist_player: Christian
+  - timestamp: 11:20
+    scoring_team: H
+    scoring_player: Ayden
+    assist_player: Christian
+  - timestamp: 12:43
+    scoring_team: H
+    scoring_player: Joshua
+    assist_player: Cameron

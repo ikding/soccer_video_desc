@@ -1,0 +1,29 @@
+date: 2024-02-17
+division: NorCal Supercopa
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: AC Marin B2013 Black
+goals:
+  - timestamp: 5:56
+    scoring_team: H
+    scoring_player: Ayden
+    assist_player: Galvan
+    minute: 37
+  - timestamp: 7:59
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Cameron
+    minute: 45
+  - timestamp: 8:45
+    scoring_team: A
+    scoring_player: 2
+    minute: 47
+  - timestamp: 9:16
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Ryan
+    minute: 52
+  - timestamp: 10:43
+    scoring_team: H
+    scoring_player: Mateo
+    minute: 57

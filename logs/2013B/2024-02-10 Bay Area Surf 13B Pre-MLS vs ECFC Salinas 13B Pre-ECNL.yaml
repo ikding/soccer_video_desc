@@ -1,0 +1,21 @@
+date: 2024-02-10
+division: NorCal U11 Scrimmage
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: ECFC Salinas 13B Pre-ECNL
+goals:
+  - timestamp: 4:20
+    scoring_team: A
+    scoring_player: Sebastian
+    assist_player: 21
+    minute: 33
+  - timestamp: 7:06
+    scoring_team: A
+    scoring_player: Junior
+    assist_player: 77
+    minute: 49
+  - timestamp: 8:40
+    scoring_team: H
+    scoring_player: Luke
+    assist_player: Cameron
+    minute: 58

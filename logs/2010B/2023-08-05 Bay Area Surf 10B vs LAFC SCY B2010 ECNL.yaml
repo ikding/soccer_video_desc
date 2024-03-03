@@ -1,0 +1,26 @@
+date: 2023-08-05
+division: Surf Cup U14 Best-of-the-Best
+round: null
+home_team: Bay Area Surf 10B
+away_team: LAFC SCY B2010 ECNL
+away_team_abbrev: LAFC
+goals:
+  - timestamp: 0:45
+    scoring_team: A
+    scoring_player: 15
+    assist_player: FK
+  - timestamp: 1:49
+    scoring_team: H
+    scoring_player: Andy
+    assist_player: Luka
+  - timestamp: 3:30
+    scoring_team: A
+    scoring_player: 21
+    assist_player: 10
+  - timestamp: 3:59
+    scoring_team: H
+    scoring_player: Lucas A
+  - timestamp: 7:19
+    scoring_team: A
+    scoring_player: 14
+    assist_player: 11

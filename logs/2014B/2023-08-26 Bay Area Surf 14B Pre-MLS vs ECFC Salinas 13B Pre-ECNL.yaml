@@ -1,0 +1,21 @@
+date: 2023-08-26
+division: NorCal U11 Premier
+round: null
+home_team: Bay Area Surf 14B Pre-MLS
+away_team: ECFC Salinas 13B Pre-ECNL
+goals:
+  - timestamp: 0:32
+    scoring_team: A
+    scoring_player: 9
+    assist_player: 3
+  - timestamp: 5:25
+    scoring_team: H
+    scoring_player: Luke
+    assist_player: Aman
+  - timestamp: 6:31
+    scoring_team: A
+    scoring_player: 10
+    assist_player: 20
+  - timestamp: 7:15
+    scoring_team: A
+    scoring_player: 10

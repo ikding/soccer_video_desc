@@ -1,0 +1,25 @@
+date: 2023-09-24
+division: NorCal State Cup U11
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Santa Clara Sporting 13B Green
+goals:
+  - timestamp: 0:42
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Dominic
+  - timestamp: 6:18
+    scoring_team: H
+    scoring_player: Ryan
+    assist_player: Owen
+  - timestamp: 7:05
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Luke
+  - timestamp: 9:38
+    scoring_team: H
+    scoring_player: Ayden
+    assist_player: Luke
+  - timestamp: 10:42
+    scoring_team: H
+    scoring_player: Galvan

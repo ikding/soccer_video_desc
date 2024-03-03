@@ -1,0 +1,21 @@
+date: 2023-09-09
+division: NorCal U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Breakers FC 12B
+goals:
+  - timestamp: 1:35
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Ryan
+  - timestamp: 2:20
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Christian
+  - timestamp: 7:31
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Galvan
+  - timestamp: 12:17
+    scoring_team: A
+    scoring_player: 10

@@ -1,0 +1,21 @@
+date: 2024-02-11
+division: MLS Next U14
+round: null
+home_team: De Anza Force 10B
+away_team: Bay Area Surf 10B
+goals:
+  - timestamp: 4:27
+    scoring_team: H
+    scoring_player: 11
+    assist_player: PK
+    minute: 30
+  - timestamp: 4:47
+    scoring_team: H
+    scoring_player: 11
+    assist_player: 22
+    minute: 31
+  - timestamp: 8:20
+    scoring_team: H
+    scoring_player: 29
+    assist_player: 61
+    minute: 70

@@ -1,0 +1,22 @@
+date: 2023-10-29
+division: LV Mayor's Cup U11 1st Div
+round: S/F
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Ajax United 13B
+goals:
+  - timestamp: 1:54
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: PK
+  - timestamp: 7:08
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Christian
+  - timestamp: 8:52
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Alexander
+  - timestamp: 9:49
+    scoring_team: A
+    scoring_player: 11
+    assist_player: FK

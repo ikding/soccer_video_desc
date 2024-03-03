@@ -1,0 +1,23 @@
+date: 2023-10-29
+division: LV Mayor's Cup U11 1st Div
+round: Final
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: CV Futbol Academy 13B I
+goals:
+  - timestamp: 3:23
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: FK
+  - timestamp: 4:26
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Alexander
+  - timestamp: 7:58
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Alexander
+  - timestamp: 9:04
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Alexander
+

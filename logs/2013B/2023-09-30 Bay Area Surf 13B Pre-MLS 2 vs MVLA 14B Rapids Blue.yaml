@@ -1,0 +1,17 @@
+date: 2023-09-30
+division: NorCal U11 Premier 2
+round: null
+home_team: Bay Area Surf 13B Pre-MLS 2
+away_team: MVLA 14B Rapids Blue
+goals:
+  - timestamp: 1:36
+    scoring_team: A
+    scoring_player: 10
+    assist_player: 27
+  - timestamp: 3:11
+    scoring_team: A
+    scoring_player: 27
+  - timestamp: 3:47
+    scoring_team: H
+    scoring_player: Dilan
+    assist_player: Liam

@@ -1,0 +1,21 @@
+date: 2023-10-14
+division: NorCal U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Los Gatos United 2012B I
+goals:
+  - timestamp: 2:29
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Ayden
+  - timestamp: 5:56
+    scoring_team: A
+    scoring_player: 44
+    assist_player: 22
+  - timestamp: 8:21
+    scoring_team: H
+    scoring_player: Ayden
+  - timestamp: 9:37
+    scoring_team: A
+    scoring_player: 16
+    assist_player: 17

@@ -1,0 +1,42 @@
+date: 2023-10-28
+division: LV Mayor's Cup U11 1st Div
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: La Roca FC 13B Bakrim
+goals:
+  - timestamp: 1:39
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Alexander
+  - timestamp: 2:24
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Christian
+  - timestamp: 3:26
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Dominic
+  - timestamp: 8:48
+    scoring_team: H
+    scoring_player: Ayden
+    assist_player: Alexander
+  - timestamp: 9:53
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Ayden
+  - timestamp: 10:37
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Ryan
+  - timestamp: 11:09
+    scoring_team: A
+    scoring_player: 70
+    assist_player: 10
+  - timestamp: 12:13
+    scoring_team: H
+    scoring_player: Ryan
+    assist_player: Ayden
+  - timestamp: 13:02
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Galvan

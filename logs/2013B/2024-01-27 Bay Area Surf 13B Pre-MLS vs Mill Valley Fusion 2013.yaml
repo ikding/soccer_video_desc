@@ -1,0 +1,66 @@
+date: 2024-01-27
+division: NorCal State Cup U11
+round: Round of 16
+home_team: Mill Valley 2013B
+home_team_abbrev: MVSC
+away_team: Bay Area Surf 13B Pre-MLS
+goals:
+  - timestamp: 0:49
+    scoring_team: A
+    scoring_player: Galvan
+    assist_player: Alexander
+    minute: 6
+  - timestamp: 1:24
+    scoring_team: A
+    scoring_player: Joshua
+    assist_player: Eli
+    minute: 8
+  - timestamp: 2:10
+    scoring_team: A
+    scoring_player: Dominic
+    assist_player: Owen
+    minute: 13
+  - timestamp: 4:41
+    scoring_team: A
+    scoring_player: Dominic
+    minute: 22
+  - timestamp: 7:46
+    scoring_team: A
+    scoring_player: Christian
+    assist_player: Dominic
+    minute: 32
+  - timestamp: 8:26
+    scoring_team: A
+    scoring_player: Ayden
+    assist_player: Dominic
+    minute: 38
+  - timestamp: 9:28
+    scoring_team: A
+    scoring_player: Luke
+    assist_player: Alexander
+    minute: 45
+  - timestamp: 10:38
+    scoring_team: A
+    scoring_player: Galvan
+    assist_player: Ryan
+    minute: 48
+  - timestamp: 11:03
+    scoring_team: A
+    scoring_player: Galvan
+    minute: 49
+  - timestamp: 11:24
+    scoring_team: A
+    scoring_player: Galvan
+    assist_player: Alexander
+    minute: 51
+  - timestamp: 12:11
+    scoring_team: A
+    scoring_player: Dominic
+    minute: 56
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+date: 2023-09-03
+division: Ajax Labor Day U11 Premier
+round: Final
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Ajax United 13B
+goals:
+  - timestamp: 2:43
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Eli
+  - timestamp: 3:53
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Galvan
+  - timestamp: 4:50
+    scoring_team: H
+    scoring_player: Dominic
+  - timestamp: 5:35
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Ayden
+  - timestamp: 6:10
+    scoring_team: H
+    scoring_player: Jayden
+    assist_player: PK
+  - timestamp: 7:32
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: FK

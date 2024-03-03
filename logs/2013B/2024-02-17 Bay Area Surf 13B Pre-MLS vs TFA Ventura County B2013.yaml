@@ -1,0 +1,35 @@
+date: 2024-02-17
+division: NorCal Supercopa
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: TFA Ventura County B2013
+away_team_abbrev: TFA-VC
+goals:
+  - timestamp: 4:14
+    scoring_team: A
+    scoring_player: 23
+    minute: 7
+  - timestamp: 22:33
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Christian
+    minute: 37
+  - timestamp: 23:55
+    scoring_team: H
+    scoring_player: Dominic
+    minute: 40
+  - timestamp: 26:08
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Owen
+    minute: 43
+  - timestamp: 28:52
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Mateo
+    minute: 48
+  - timestamp: 37:39
+    scoring_team: A
+    scoring_player: 14
+    assist_player: 8
+    minute: 60

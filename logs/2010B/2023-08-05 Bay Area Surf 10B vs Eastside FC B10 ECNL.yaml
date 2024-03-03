@@ -1,0 +1,34 @@
+date: 2023-08-05
+division: Surf Cup U14 Best-of-the-Best
+round: null
+home_team: Bay Area Surf 10B
+away_team: Eastside FC B10 ECNL
+goals:
+  - timestamp: 1:07
+    scoring_team: H
+    scoring_player: Andy
+    assist_player: Yahir
+  - timestamp: 1:49
+    scoring_team: H
+    scoring_player: Yahir
+    assist_player: Taku
+  - timestamp: 3:38
+    scoring_team: H
+    scoring_player: Bennett
+    assist_player: PK
+  - timestamp: 3:52
+    scoring_team: A
+    scoring_player: 22
+    assist_player: 76
+  - timestamp: 4:24
+    scoring_team: A
+    scoring_player: 80
+    assist_player: 22
+  - timestamp: 5:08
+    scoring_team: A
+    scoring_player: 17
+    assist_player: 22
+  - timestamp: 7:12
+    scoring_team: H
+    scoring_player: Yahir
+    assist_player: PK

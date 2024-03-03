@@ -1,0 +1,24 @@
+date: 2023-09-02
+division: Ajax Labor Day U11 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: ECFC Salinas 13B Pre-ECNL
+goals:
+  - timestamp: 1:31
+    scoring_team: H
+    scoring_player: Luke
+  - timestamp: 3:21
+    scoring_team: H
+    scoring_player: Galvan
+  - timestamp: 5:03
+    scoring_team: A
+    scoring_player: 20
+    assist_player: PK
+  - timestamp: 5:24
+    scoring_team: A
+    scoring_player: 9
+  - timestamp: 6:19
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Christian
+

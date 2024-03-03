@@ -1,0 +1,22 @@
+date: 2023-09-10
+division: MLS Next U14
+round: null
+home_team: Bay Area Surf 10B
+away_team: Woodside Crush 10B
+goals:
+  - timestamp: 1:38
+    scoring_team: H
+    scoring_player: Cole
+    assist_player: FK
+  - timestamp: 6:31
+    scoring_team: H
+    scoring_player: Yariv
+    assist_player: Ryker
+  - timestamp: 7:41
+    scoring_team: A
+    scoring_player: 15
+    assist_player: 27
+  - timestamp: 8:49
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Luka

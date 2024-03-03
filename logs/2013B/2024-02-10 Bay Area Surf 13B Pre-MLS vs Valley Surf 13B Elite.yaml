@@ -1,0 +1,39 @@
+date: 2024-02-10
+division: NorCal U11 Scrimmage
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Valley Surf 13B Elite
+goals:
+  - timestamp: 0:27
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Cameron
+    minute: 4
+  - timestamp: 1:48
+    scoring_team: A
+    scoring_player: 18
+    minute: 10
+  - timestamp: 3:06
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Christian
+    minute: 14
+  - timestamp: 5:21
+    scoring_team: H
+    scoring_player: Mateo
+    assist_player: Alexander
+    minute: 30
+  - timestamp: 6:54
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Eli
+    minute: 41
+  - timestamp: 9:41
+    scoring_team: H
+    scoring_player: Dominic
+    minute: 55
+  - timestamp: 10:12
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Ayden
+    minute: 58

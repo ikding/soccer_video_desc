@@ -1,0 +1,42 @@
+date: 2023-08-26
+division: NorCal U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Almaden FC Mercury B12 Blue
+away_team_abbrev: Almaden FC
+goals:
+  - timestamp: 1:52
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Owen
+  - timestamp: 2:16
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Ayden
+  - timestamp: 3:28
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Christian
+  - timestamp: 5:18
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Owen
+  - timestamp: 5:47
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Luke
+  - timestamp: 6:39
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Owen
+  - timestamp: 7:14
+    scoring_team: H
+    scoring_player: Eli
+  - timestamp: 8:54
+    scoring_team: H
+    scoring_player: Luke
+    assist_player: Ryan
+  - timestamp: 9:37
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Dominic

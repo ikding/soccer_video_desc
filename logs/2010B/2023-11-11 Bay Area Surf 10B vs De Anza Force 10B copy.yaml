@@ -1,0 +1,33 @@
+date: 2023-11-11
+division: MLS Next U14
+round: null
+home_team: Bay Area Surf 10B
+away_team: De Anza Force 10B
+goals:
+  - timestamp: 2:02
+    scoring_team: A
+    scoring_player: 12
+    assist_player: 29
+  - timestamp: 4:35
+    scoring_team: A
+    scoring_player: 22
+    assist_player: PK
+  - timestamp: 5:33
+    scoring_team: A
+    scoring_player: 61
+    assist_player: 3
+  - timestamp: 6:44
+    scoring_team: A
+    scoring_player: 29
+    assist_player: 70
+  - timestamp: 9:45
+    scoring_team: H
+    scoring_player: Cole
+  - timestamp: 10:38
+    scoring_team: H
+    scoring_player: Cole
+    assist_player: Yahir
+  - timestamp: 12:01
+    scoring_team: H
+    scoring_player: Gio
+    assist_player: Galvan

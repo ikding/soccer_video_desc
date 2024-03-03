@@ -1,0 +1,31 @@
+date: 2024-02-18
+division: NorCal Supercopa U11
+round: Final
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: ECFC Salinas 13B Pre-ECNL
+goals:
+  - timestamp: 0:39
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Galvan
+    minute: 1
+  - timestamp: 13:30
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Mateo
+    minute: 23
+  - timestamp: 21:16
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Galvan
+    minute: 33
+  - timestamp: 23:24
+    scoring_team: H
+    scoring_player: null
+    assist_player: OG
+    minute: 36
+  - timestamp: 24:30
+    scoring_team: A
+    scoring_player: 28
+    assist_player: 10
+    minute: 37

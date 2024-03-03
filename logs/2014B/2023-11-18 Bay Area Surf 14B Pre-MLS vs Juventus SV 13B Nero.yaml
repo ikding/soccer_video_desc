@@ -1,0 +1,17 @@
+date: 2023-11-18
+division: NorCal U11 Premier
+round: null
+home_team: Bay Area Surf 14B Pre-MLS
+away_team: Juventus SV 13B Nero
+goals:
+  - timestamp: 0:14
+    scoring_team: A
+    scoring_player: 25
+  - timestamp: 0:39
+    scoring_team: A
+    scoring_player: 13
+    assist_player: 25
+  - timestamp: 5:31
+    scoring_team: H
+    scoring_player: Carrick
+    assist_player: PK

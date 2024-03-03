@@ -1,0 +1,29 @@
+date: 2023-12-09
+division: MVLA Winter Cup U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: SF Seals 12B Black
+goals:
+  - timestamp: 0:53
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Ayden
+  - timestamp: 1:11
+    scoring_team: A
+    scoring_player: 8
+    assist_player: 18
+  - timestamp: 2:05
+    scoring_team: A
+    scoring_player: 17
+    assist_player: PK
+  - timestamp: 3:56
+    scoring_team: H
+    scoring_player: Ayden
+    assist_player: FK
+  - timestamp: 4:52
+    scoring_team: H
+    scoring_player: Eli
+  - timestamp: 6:49
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: FK

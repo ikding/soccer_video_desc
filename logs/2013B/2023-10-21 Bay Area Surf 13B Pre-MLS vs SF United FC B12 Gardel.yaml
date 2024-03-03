@@ -1,0 +1,32 @@
+date: 2023-10-21
+division: NorCal U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: SF United FC B12 Gardel
+goals:
+  - timestamp: 1:46
+    scoring_team: H
+    scoring_player: Eli
+  - timestamp: 2:42
+    scoring_team: A
+    scoring_player: 33
+  - timestamp: 4:42
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Ryan
+  - timestamp: 8:45
+    scoring_team: H
+    scoring_player: Owen
+    assist_player: Galvan
+  - timestamp: 9:26
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Owen
+  - timestamp: 10:51
+    scoring_team: H
+    scoring_player: Owen
+    assist_player: Ayden
+  - timestamp: 11:30
+    scoring_team: A
+    scoring_player: 9
+    assist_player: 12

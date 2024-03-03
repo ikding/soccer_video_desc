@@ -1,0 +1,32 @@
+date: 2024-02-25
+division: NorCal State Cup U11
+round: Prem 2 Final
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: San Juan 13B Blue
+away_team_abbrev: San Juan
+goals:
+  - timestamp: 17:48
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Dominic
+    minute: 30
+  - timestamp: 20:58
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Owen
+    minute: 33
+  - timestamp: 23:59
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Alexander
+    minute: 37
+  - timestamp: 25:59
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Owen
+    minute: 40
+  - timestamp: 30:45
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: PK
+    minute: 49
