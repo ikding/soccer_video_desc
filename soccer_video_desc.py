@@ -98,6 +98,29 @@ def parse_timestamp(timestamp: int | str) -> str:
         return ":".join(str(timedelta(seconds=timestamp)).split(":")[1:]).lstrip("0")
 
 
+def abbreviate_title(title: str, max_title_length: int = 100) -> str:
+    """
+    Abbreviates a title by removing spaces around pipe characters, from right to left.
+
+    Args:
+        title (str): The title to abbreviate.
+
+    Returns:
+        str: The abbreviated title.
+        max_title_length (int, optional): The maximum length of the title. Defaults to
+            100.
+    """
+    segments = title.split("|")
+    for i in range(len(segments) - 1, 0, -1):
+        if len(title) <= max_title_length:
+            break
+        segments[i] = segments[i].strip()
+        segments[i - 1] = segments[i - 1].rstrip()
+        title = "|".join(segments)
+
+    return title
+
+
 def soccer_game_description(
     game: Game, goals: None | list[Goal], max_title_length: int = 100
 ) -> str:
@@ -178,21 +201,20 @@ def soccer_game_description(
     if game.round is not None:
         title_segments.insert(2, game.round)
     title = " | ".join(title_segments) + "\n"
-    max_title_length = 100
 
     if len(title) > max_title_length + 1:  # 100 characters + 1 newline
         logger.warning(
             f"Title is too long: {len(title)} characters "
             f"(max {max_title_length} characters)"
         )
-        # abbreviated title
-        new_title = "|".join(title_segments) + "\n"
+
+        new_title = abbreviate_title(title) + "\n"
         if len(new_title) > max_title_length + 1:
             pass
         else:
             logger.info(
                 f"Abbreviating title to fit within {max_title_length} characters. "
-                f"New length: {len(new_title)}"
+                f"New length: {len(new_title) - 1}"  # subtract 1 for newline
             )
             title = new_title
 
@@ -213,9 +235,6 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    # with open("examples/regular_season.yaml") as f:
-    #     game_logs = yaml.safe_load(f)
-
     with open(args.yaml_fpath, "r") as f:
         try:
             game_logs = yaml.safe_load(f)
@@ -228,4 +247,5 @@ if __name__ == "__main__":
     game = Game(**game_logs)
 
     description = soccer_game_description(game, goals)
-    logger.info(f"\n{description}\n")
+    title_length = len(description.split("\n")[0])
+    logger.info(f"title length: {title_length} characters\n\n{description}\n")

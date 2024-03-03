@@ -4,6 +4,7 @@ import yaml
 from soccer_video_desc import (
     Game,
     Goal,
+    abbreviate_title,
     parse_timestamp,
     soccer_game_description,
     split_team_name,
@@ -35,6 +36,33 @@ def test_split_team_name(input, expected):
 )
 def test_parse_timestamp(input, expected):
     assert parse_timestamp(input) == expected
+
+
+@pytest.mark.parametrize(
+    "input,expected,max_title_length",
+    [
+        pytest.param(
+            "This | is | a | test | title",
+            "This|is|a|test|title",
+            20,
+            id="all-spaces-removed",
+        ),
+        pytest.param(
+            "This | is | a | test | title",
+            "This | is | a|test|title",
+            24,
+            id="some-spaces-removed",
+        ),
+        pytest.param(
+            "This | is | a | test | title",
+            "This | is | a | test | title",
+            30,
+            id="no-spaces-removed",
+        ),
+    ],
+)
+def test_abbreviate_title(input, expected, max_title_length):
+    assert abbreviate_title(input, max_title_length) == expected
 
 
 @pytest.mark.parametrize(
@@ -85,7 +113,7 @@ Bay Area Surf 13B Pre-MLS 3-2 Palo Alto SC 12B Gold
 10:03 Bay Area Surf 2-[1] Palo Alto SC - #27 (assist from #70) 11'
 11:02 Bay Area Surf 2-[2] Palo Alto SC - #90 (free kick) 12'
 11:32 Bay Area Surf [3]-2 Palo Alto SC - None (own goal) 13'""",
-            id="regular season",
+            id="regular-season",
         ),
         pytest.param(
             """
@@ -119,7 +147,7 @@ goals:
     minute: 60+2
             """,
             """
-Bay Area Surf 13B Pre-MLS 4-0 CV Futbol Academy 13B I|LV Mayor's Cup U11 1st Div|Final|2023-10-29
+Bay Area Surf 13B Pre-MLS 4-0 CV Futbol Academy 13B I | LV Mayor's Cup U11 1st Div|Final|2023-10-29
 
 2023-10-29 LV Mayor's Cup U11 1st Div (Final)
 
