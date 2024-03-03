@@ -97,22 +97,25 @@ def parse_timestamp(timestamp: int | str) -> str:
         return ":".join(str(timedelta(seconds=timestamp)).split(":")[1:]).lstrip("0")
 
 
-def soccer_game_description(game: Game, goals: None | list[Goal]) -> str:
+def soccer_game_description(
+    game: Game, goals: None | list[Goal], max_title_length: int = 100
+) -> str:
     """
-    Generate a description of a soccer game.
+    Generates a description for a soccer game.
+
+    The description includes the final scoreline, the division, the date, and a list of
+    goals. Each goal is represented by a string that includes the timestamp, the scoring
+    team, the scoreline after the goal, the player who scored the goal, and optionally
+    the player who assisted the goal and the game minute of the goal.
 
     Args:
-        date (str): The date of the game.
-        division (str): The division in which the game was played.
-        round (str | None): The round of the game, if applicable.
-        home_team (str): The name of the home team.
-        away_team (str): The name of the away team.
-        goals (None | dict[str, None | str | int]): A dictionary containing information
-            about each goal scored in the game.
+        game (Game): The game for which to generate a description.
+        goals (None | list[Goal]): A list of goals scored during the game.
+        max_title_length (int, optional): The maximum length of the title. Defaults to
+            100.
 
     Returns:
-        str: A string description of the game, including the final scoreline, the date,
-        the division, the round (if applicable), and a description of each goal.
+        str: A string containing the game description.
     """
     # Initialize variables for the game description
     team_dict: dict[str, str] = {"H": game.home_team, "A": game.away_team}
@@ -174,18 +177,21 @@ def soccer_game_description(game: Game, goals: None | list[Goal]) -> str:
     if game.round is not None:
         title_segments.insert(2, game.round)
     title = " | ".join(title_segments) + "\n"
-    if len(title) > 100:
+    max_title_length = 100
+
+    if len(title) > max_title_length + 1:  # 100 characters + 1 newline
         logger.warning(
-            f"Title is too long: {len(title)} characters (max 100 characters)"
+            f"Title is too long: {len(title)} characters "
+            f"(max {max_title_length} characters)"
         )
         # abbreviated title
         new_title = "|".join(title_segments) + "\n"
-        if len(new_title) > 100:
+        if len(new_title) > max_title_length + 1:
             pass
         else:
             logger.info(
-                "Abbreviating title to fit within 100 characters. New length:"
-                f" {len(new_title)}"
+                f"Abbreviating title to fit within {max_title_length} characters. "
+                f"New length: {len(new_title)}"
             )
             title = new_title
 

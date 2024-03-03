@@ -119,7 +119,7 @@ goals:
     minute: 60+2
             """,
             """
-Bay Area Surf 13B Pre-MLS 4-0 CV Futbol Academy 13B I | LV Mayor's Cup U11 1st Div | Final | 2023-10-29
+Bay Area Surf 13B Pre-MLS 4-0 CV Futbol Academy 13B I|LV Mayor's Cup U11 1st Div|Final|2023-10-29
 
 2023-10-29 LV Mayor's Cup U11 1st Div (Final)
 
