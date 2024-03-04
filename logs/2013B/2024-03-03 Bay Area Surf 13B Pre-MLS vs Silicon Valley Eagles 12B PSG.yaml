@@ -2,28 +2,21 @@ date: 2024-03-03
 division: NorCal U12 Premier
 round: null
 home_team: Silicon Valley Eagles 12B PSG
+home_team_abbrev: SV Eagles
 away_team: Bay Area Surf 13B Pre-MLS
 goals:
-  - timestamp: 5:56
-    scoring_team: H
-    scoring_player: Ayden
-    assist_player: Galvan
-    minute: 37
-  - timestamp: 7:59
-    scoring_team: H
-    scoring_player: Galvan
-    assist_player: Cameron
-    minute: 45
-  - timestamp: 8:45
+  - timestamp: 8:21
     scoring_team: A
-    scoring_player: 2
-    minute: 47
-  - timestamp: 9:16
-    scoring_team: H
     scoring_player: Dominic
-    assist_player: Ryan
+    assist_player: Eli
+    minute: 43
+  - timestamp: 9:14
+    scoring_team: A
+    scoring_player: Dominic
+    assist_player: Ayden
     minute: 52
-  - timestamp: 10:43
-    scoring_team: H
-    scoring_player: Mateo
-    minute: 57
+  - timestamp: 10:46
+    scoring_team: A
+    scoring_player: Joshua
+    assist_player: Alexander
+    minute: 58
