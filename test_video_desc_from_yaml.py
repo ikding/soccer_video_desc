@@ -1,7 +1,7 @@
 import pytest
 import yaml
 
-from soccer_video_desc import (
+from video_desc_from_yaml import (
     Game,
     Goal,
     abbreviate_title,
