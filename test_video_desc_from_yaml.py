@@ -1,9 +1,8 @@
 import pytest
 import yaml
 
+from data_models import Game, Goal
 from video_desc_from_yaml import (
-    Game,
-    Goal,
     abbreviate_title,
     parse_timestamp,
     soccer_game_description,
