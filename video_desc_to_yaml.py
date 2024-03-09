@@ -11,10 +11,31 @@ logger = logging.getLogger(__name__)
 
 
 def split_multiline_string(string: str) -> list[str]:
+    """
+    Splits a multiline string into a list of strings.
+
+    Args:
+        string (str): The multiline string to split.
+
+    Returns:
+        list[str]: A list of strings, where each string is a line from the original
+        string. Empty lines are excluded and leading and trailing whitespace is removed
+        from each line.
+    """
     return [s.strip() for s in re.split(r"\n", string) if len(s.strip()) > 0]
 
 
 def parse_title(string: str) -> tuple[date, str]:
+    """
+    Parses a title string into a date and a division.
+
+    Args:
+        string (str): The title string to parse. It should start with a date in ISO
+            format (YYYY-MM-DD), followed by a space, followed by the division.
+
+    Returns:
+        tuple[date, str]: A tuple containing the date and the division.
+    """
     try:
         date_str, division = string.split(" ", 1)
         return date.fromisoformat(date_str), division
@@ -66,9 +87,6 @@ def parse_goal(string: str, home_team: str, away_team: str) -> Goal:
         assist_player, rest = rest.split(" (assist from ", 1)
         assist_player = assist_player.strip()
         assist_player = assist_player.rstrip(")")
-    # if "): " in rest:
-    #     minute, rest = rest.split("): ", 1)
-    #     minute = int(minute)
 
     scoring_team = get_close_matches(
         scoring_team, [home_team, away_team], n=1, cutoff=0.25
@@ -98,6 +116,21 @@ def parse_goal(string: str, home_team: str, away_team: str) -> Goal:
 
 
 def parse_all_fields(multiline_string: str) -> tuple[Game, list[Goal]]:
+    """
+    Parses a multiline string into a Game object and a list of Goal objects.
+
+    Args:
+        multiline_string (str): The multiline string to parse. The first line should
+            contain the game date and division, the second line should contain the home
+            and away teams, and the remaining lines should contain the goals.
+
+    Returns:
+        tuple[Game, list[Goal]]: A tuple containing a Game object and a list of Goal
+        objects.
+
+    The Game object is created from the date, division, home team, and away team.
+    Each Goal object is created from a line that starts with a timestamp.
+    """
     strings = split_multiline_string(multiline_string)
     game_date, division = parse_title(strings[0])
     home_team, away_team = parse_team(strings[1])
@@ -116,16 +149,27 @@ def parse_all_fields(multiline_string: str) -> tuple[Game, list[Goal]]:
 
 
 def convert_to_yaml(game: Game, goals: list[Goal] | None) -> str:
+    """
+    Converts a Game object and a list of Goal objects to a YAML string.
+
+    Args:
+        game (Game): The Game object to convert.
+        goals (list[Goal] | None): The list of Goal objects to convert. If None, no
+            goals are added to the game.
+
+    Returns:
+        str: A YAML string representing the game and the goals.
+
+    The Game object is converted to a dictionary using the asdict function from the
+    dataclasses module. Each Goal object is also converted to a dictionary using the
+    asdict function. The dictionaries are then converted to a YAML string using the dump
+    function from the PyYAML module.
+    """
     game_dict = asdict(game)
     if goals is not None:
         goals_list = [asdict(goal) for goal in goals]
         game_dict["goals"] = goals_list
-    return yaml.dump(game_dict)
-
-
-# def main(multiline_string: str) -> str:
-#     game, goals = parse_all_fields(multiline_string)
-#     return convert_to_yaml(game, goals)
+    return yaml.dump(game_dict, sort_keys=False)
 
 
 if __name__ == "__main__":
