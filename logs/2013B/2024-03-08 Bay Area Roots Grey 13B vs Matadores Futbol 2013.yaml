@@ -1,0 +1,47 @@
+date: 2024-03-08
+division: US Futsal NW Regional U11
+round: null
+home_team:  Bay Area Roots Grey 13B
+home_team_abbrev: Bay Area Roots
+away_team: Matadores Futbol 2013
+away_team_abbrev: Matadores
+goals:
+  - timestamp: 1:30
+    scoring_team: H
+    scoring_player: Dominic
+    minute: 2
+  - timestamp: 8:59
+    scoring_team: H
+    scoring_player: Luke
+    assist_player: Cameron
+    minute: 10
+  - timestamp: 18:14
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Dominic
+    minute: 19
+  - timestamp: 21:07
+    scoring_team: A
+    scoring_player: 30
+    assist_player: 10
+    minute: 22
+  - timestamp: 24:39
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Luke
+    minute: 26
+  - timestamp: 32:45
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Luke
+    minute: 35
+  - timestamp: 34:56
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Christian
+    minute: 37
+  - timestamp: 35:23
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Christian
+    minute: 37

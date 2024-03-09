@@ -1,0 +1,46 @@
+date: 2024-03-08
+division: US Futsal NW Regional U11
+round: null
+home_team:  Bay Area Roots Black 13B
+home_team_abbrev: Bay Area Roots
+away_team: Galaxy Futsal 2013B
+away_team_abbrev: Galaxy
+goals:
+  - timestamp: 2:30
+    scoring_team: A
+    scoring_player: Dilan
+    minute: 2
+  - timestamp: 3:41
+    scoring_team: A
+    scoring_player: 39
+    assist_player: Dilan
+    minute: 5
+  - timestamp: 8:59
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Eli
+    minute: 10
+  - timestamp: 15:54
+    scoring_team: H
+    scoring_player: Ayden
+    assist_player: Mateo
+    minute: 17
+  - timestamp: 26:36
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: Ayden
+    minute: 27
+  - timestamp: 28:21
+    scoring_team: A
+    scoring_player: Dilan
+    assist_player: Aarin
+    minute: 29
+  - timestamp: 28:58
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: Galvan
+    minute: 29
+  - timestamp: 35:19
+    scoring_team: H
+    scoring_player: Galvan
+    minute: 36

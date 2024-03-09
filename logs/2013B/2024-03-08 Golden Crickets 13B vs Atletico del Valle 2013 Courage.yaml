@@ -1,0 +1,72 @@
+date: 2024-03-08
+division: US Futsal NW Regional U11
+round: null
+home_team:  Golden Crickets 13B
+away_team: Atletico del Valle 2013 Courage
+goals:
+  - timestamp: 3:21
+    scoring_team: H
+    scoring_player: Jerry
+    minute: 4
+  - timestamp: 7:55
+    scoring_team: H
+    scoring_player: Jerry
+    assist_player: Colin
+    minute: 8
+  - timestamp: 9:39
+    scoring_team: H
+    scoring_player: Colin
+    assist_player: Myles
+    minute: 10
+  - timestamp: 12:00
+    scoring_team: H
+    scoring_player: Colin
+    assist_player: Bryan
+    minute: 13
+  - timestamp: 14:55
+    scoring_team: H
+    scoring_player: Jerry
+    assist_player: Carrick
+    minute: 16
+  - timestamp: 16:37
+    scoring_team: H
+    scoring_player: Carrick
+    assist_player: Jerry
+    minute: 17
+  - timestamp: 22:17
+    scoring_team: H
+    scoring_player: Bryan
+    assist_player: Miles
+    minute: 22
+  - timestamp: 24:47
+    scoring_team: H
+    scoring_player: Carrick
+    assist_player: Haruto
+    minute: 25
+  - timestamp: 25:10
+    scoring_team: H
+    scoring_player: Carrick
+    minute: 25
+  - timestamp: 25:53
+    scoring_team: H
+    scoring_player: Haruto
+    assist_player: Carrick
+    minute: 26
+  - timestamp: 32:38
+    scoring_team: H
+    scoring_player: Myles
+    assist_player: Colin
+    minute: 33
+  - timestamp: 38:01
+    scoring_team: H
+    scoring_player: Haruto
+    assist_player: Alvin
+    minute: 39
+  - timestamp: 38:50
+    scoring_team: H
+    scoring_player: Haruto
+    minute: 39
+  - timestamp: 39:32
+    scoring_team: H
+    scoring_player: Haruto
+    minute: 40
