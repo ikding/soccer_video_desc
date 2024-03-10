@@ -76,7 +76,6 @@ def parse_goal(string: str, home_team: str, away_team: str) -> Goal:
     scoring_team, rest = rest.split(" - ", 1)
     if "assist from" in rest:
         scoring_player, rest = rest.split(" (assist from ", 1)
-        # assist_player, rest = rest.split(r")\s?:\s?", 1)
         assist_player, rest = re.split(r"\)\s?:", rest)
     else:
         scoring_player = rest.split(":")[0].strip()
@@ -102,7 +101,7 @@ def parse_goal(string: str, home_team: str, away_team: str) -> Goal:
         )
 
     if scoring_player is not None and scoring_player.startswith("#"):
-        scoring_player = int(scoring_player[1:])
+        scoring_player = int(scoring_player[1:])  # type: ignore
     if assist_player is not None and assist_player.startswith("#"):
         assist_player = int(assist_player[1:])
 
