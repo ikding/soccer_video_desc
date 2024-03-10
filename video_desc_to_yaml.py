@@ -196,5 +196,8 @@ Norcal U10B Region 1/2 Gold South (2022 fall league) - Event Page: https://syste
     yaml_fname = f"{game.date} {game.home_team} vs {game.away_team}.yaml"
     yaml_string = convert_to_yaml(game, goals)
 
-    # yaml_string = main(multiline_string)
     logger.info(f"\n\n{yaml_fname}\n\n{yaml_string}")
+
+    logger.info(f"Writing YAML to logs/{yaml_fname}")
+    with open(f"logs/{yaml_fname}", "w") as f:
+        f.write(yaml_string)
