@@ -1,0 +1,17 @@
+date: 2024-03-09
+division: US Futsal NW Regional U11
+round: null
+home_team:  Bay Area Roots Black 13B
+home_team_abbrev: Bay Area Roots
+away_team: Modesto United 2013B
+goals:
+  - timestamp: 1:56
+    scoring_team: A
+    scoring_player: 6
+    assist_player: 10
+    minute: 2
+  - timestamp: 21:14
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: Mateo
+    minute: 22

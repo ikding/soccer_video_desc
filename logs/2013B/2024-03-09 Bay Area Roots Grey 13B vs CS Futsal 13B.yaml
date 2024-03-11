@@ -1,0 +1,68 @@
+date: 2024-03-09
+division: US Futsal NW Regional U11
+round: null
+home_team:  Bay Area Roots Grey 13B
+home_team_abbrev: Bay Area Roots
+away_team: CS Futsal 13B
+goals:
+  - timestamp: 0:12
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Christian
+    minute: 1
+  - timestamp: 1:16
+    scoring_team: H
+    scoring_player: Dominic
+    minute: 2
+  - timestamp: 3:07
+    scoring_team: A
+    scoring_player: 45
+    minute: 3
+  - timestamp: 3:50
+    scoring_team: H
+    scoring_player: Dominic
+    minute: 4
+  - timestamp: 4:55
+    scoring_team: H
+    scoring_player: Luke
+    assist_player: Christian
+    minute: 6
+  - timestamp: 9:33
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Cameron
+    minute: 11
+  - timestamp: 16:45
+    scoring_team: H
+    scoring_player: Luke
+    minute: 18
+  - timestamp: 18:22
+    scoring_team: A
+    scoring_player: 45
+    minute: 20
+  - timestamp: 25:29
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Joshua
+    minute: 27
+  - timestamp: 26:52
+    scoring_team: H
+    scoring_player: Dominic
+    minute: 29
+  - timestamp: 27:43
+    scoring_team: H
+    scoring_player: Christian
+    minute: 30
+  - timestamp: 32:57
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Joshua
+    minute: 35
+  - timestamp: 34:02
+    scoring_team: H
+    scoring_player: Dominic
+    minute: 36
+  - timestamp: 34:13
+    scoring_team: H
+    scoring_player: Dominic
+    minute: 37
