@@ -1,0 +1,42 @@
+date: 2024-03-09
+division: US Futsal NW Regional U11
+round: null
+home_team:  Bay Area Roots Grey 13B
+home_team_abbrev: Bay Area Roots
+away_team: Top Notch Futsal 2013B USA
+away_team_abbrev: Top Notch
+goals:
+  - timestamp: 0:22
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Cameron
+    minute: 1
+  - timestamp: 1:38
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Cameron
+    minute: 2
+  - timestamp: 7:52
+    scoring_team: H
+    scoring_player: Christian
+    assist_player: Dominic
+    minute: 9
+  - timestamp: 22:15
+    scoring_team: A
+    scoring_player: 13
+    assist_player: Matteo
+    minute: 23
+  - timestamp: 24:30
+    scoring_team: H
+    scoring_player: Cameron
+    minute: 26
+  - timestamp: 25:12
+    scoring_team: H
+    scoring_player: Joshua
+    assist_player: Christian
+    minute: 27
+  - timestamp: 34:05
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Luke
+    minute: 36

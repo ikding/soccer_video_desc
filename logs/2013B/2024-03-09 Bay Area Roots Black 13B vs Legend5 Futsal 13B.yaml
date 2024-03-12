@@ -1,0 +1,68 @@
+date: 2024-03-09
+division: US Futsal NW Regional U11
+round: null
+home_team:  Bay Area Roots Black 13B
+home_team_abbrev: Bay Area Roots
+away_team: Legend5 Futsal 13B
+away_team_abbrev: Legend5
+goals:
+  - timestamp: 3:42
+    scoring_team: A
+    scoring_player: 14
+    assist_player: 55
+    minute: 5
+  - timestamp: 5:54
+    scoring_team: A
+    scoring_player: 2
+    minute: 7
+  - timestamp: 6:29
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: FK
+    minute: 7
+  - timestamp: 11:07
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: Galvan
+    minute: 12
+  - timestamp: 14:45
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Mateo
+    minute: 16
+  - timestamp: 19:39
+    scoring_team: H
+    scoring_player: Alexander
+    assist_player: Eli
+    minute: 22
+  - timestamp: 20:08
+    scoring_team: H
+    scoring_player: Galvan
+    minute: 22
+  - timestamp: 22:20
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: Galvan
+    minute: 24
+  - timestamp: 26:25
+    scoring_team: H
+    scoring_player: Galvan
+    minute: 29
+  - timestamp: 27:53
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: Jayce
+    minute: 29
+  - timestamp: 29:29
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Mateo
+    minute: 32
+  - timestamp: 30:56
+    scoring_team: H
+    scoring_player: Eli
+    minute: 33
+  - timestamp: 33:25
+    scoring_team: H
+    scoring_player: Alexander
+    minute: 37

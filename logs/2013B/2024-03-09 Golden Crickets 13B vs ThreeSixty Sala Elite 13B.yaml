@@ -1,0 +1,75 @@
+date: 2024-03-09
+division: US Futsal NW Regional U11
+round: null
+home_team:  Golden Crickets 13B
+away_team: ThreeSixty Sala Elite 13B
+away_team_abbrev: ThreeSixty Sala
+goals:
+  - timestamp: 6:34
+    scoring_team: A
+    scoring_player: 7
+    assist_player: 10
+    minute: 7
+  - timestamp: 8:15
+    scoring_team: H
+    scoring_player: Jerry
+    minute: 9
+  - timestamp: 9:33
+    scoring_team: A
+    scoring_player: 11
+    minute: 10
+  - timestamp: 12:10
+    scoring_team: H
+    scoring_player: Colin
+    assist_player: Myles
+    minute: 13
+  - timestamp: 14:32
+    scoring_team: H
+    scoring_player: Colin
+    assist_player: Alvin
+    minute: 15
+  - timestamp: 16:38
+    scoring_team: H
+    scoring_player: Haruto
+    assist_player: Colin
+    minute: 17
+  - timestamp: 19:19
+    scoring_team: H
+    scoring_player: Haruto
+    assist_player: Colin
+    minute: 20
+  - timestamp: 20:57
+    scoring_team: H
+    scoring_player: Haruto
+    assist_player: Jerry
+    minute: 22
+  - timestamp: 22:38
+    scoring_team: H
+    scoring_player: Colin
+    assist_player: Haruto
+    minute: 24
+  - timestamp: 24:07
+    scoring_team: H
+    scoring_player: Colin
+    assist_player: Carrick
+    minute: 25
+  - timestamp: 30:31
+    scoring_team: A
+    scoring_player: 7
+    assist_player: 9
+    minute: 32
+  - timestamp: 31:40
+    scoring_team: H
+    scoring_player: Bryan
+    assist_player: Myles
+    minute: 33
+  - timestamp: 35:01
+    scoring_team: A
+    scoring_player: 7
+    assist_player: 10
+    minute: 36
+  - timestamp: 35:53
+    scoring_team: H
+    scoring_player: Myles
+    assist_player: Haruto
+    minute: 37
