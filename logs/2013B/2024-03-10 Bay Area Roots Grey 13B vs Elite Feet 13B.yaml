@@ -1,0 +1,37 @@
+date: 2024-03-10
+division: US Futsal NW Regional U11
+round: Q/F
+home_team:  Bay Area Roots Grey 13B
+home_team_abbrev: Bay Area Roots
+away_team: Elite Feet 13B
+goals:
+  - timestamp: 1:10
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Dominic
+    minute: 2
+  - timestamp: 6:39
+    scoring_team: A
+    scoring_player: 47
+    assist_player: 5
+    minute: 7
+  - timestamp: 20:48
+    scoring_team: A
+    scoring_player: 47
+    assist_player: 10
+    minute: 21
+  - timestamp: 30:04
+    scoring_team: H
+    scoring_player: Cameron
+    assist_player: Joshua
+    minute: 32
+  - timestamp: 33:30
+    scoring_team: A
+    scoring_player: 11
+    assist_player: FK
+    minute: 35
+  - timestamp: 35:17
+    scoring_team: A
+    scoring_player: 47
+    assist_player: Goalie
+    minute: 36

@@ -1,0 +1,31 @@
+date: 2024-03-10
+division: US Futsal NW Regional U11
+round: Q/F
+home_team:  Bay Area Roots Black 13B
+home_team_abbrev: Bay Area Roots
+away_team: CVFA 13B Academy I
+goals:
+  - timestamp: 9:52
+    scoring_team: H
+    scoring_player: Ayden
+    assist_player: Mateo
+    minute: 10
+  - timestamp: 27:40
+    scoring_team: H
+    scoring_player: Eli
+    assist_player: Mateo
+    minute: 29
+  - timestamp: 30:20
+    scoring_team: H
+    scoring_player: Mateo
+    minute: 33
+  - timestamp: 32:39
+    scoring_team: A
+    scoring_player: 25
+    assist_player: 6
+    minute: 35
+  - timestamp: 36:13
+    scoring_team: A
+    scoring_player: 19
+    assist_player: 6
+    minute: 38

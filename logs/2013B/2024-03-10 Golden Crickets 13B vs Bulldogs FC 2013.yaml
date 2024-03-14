@@ -1,0 +1,39 @@
+date: 2024-03-10
+division: US Futsal NW Regional U11
+round: Q/F
+home_team:  Golden Crickets 13B
+away_team: Bulldogs FC 2013
+away_team_abbrev: Bulldogs
+goals:
+  - timestamp: 3:04
+    scoring_team: H
+    scoring_player: Haruto
+    assist_player: Bryan
+    minute: 5
+  - timestamp: 6:07
+    scoring_team: H
+    scoring_player: Bryan
+    minute: 8
+  - timestamp: 11:03
+    scoring_team: H
+    scoring_player: Jerry
+    minute: 13
+  - timestamp: 15:13
+    scoring_team: A
+    scoring_player: 10
+    minute: 17
+  - timestamp: 16:57
+    scoring_team: H
+    scoring_player: Colin
+    assist_player: Myles
+    minute: 18
+  - timestamp: 24:34
+    scoring_team: A
+    scoring_player: 10
+    assist_player: 11
+    minute: 26
+  - timestamp: 36:00
+    scoring_team: A
+    scoring_player: 10
+    assist_player: 30
+    minute: 37
