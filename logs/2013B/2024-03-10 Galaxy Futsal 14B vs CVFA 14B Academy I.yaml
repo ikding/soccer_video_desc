@@ -24,8 +24,8 @@ goals:
     minute: 6
   - timestamp: 7:06
     scoring_team: H
-    scoring_player: 7
-    assist_player: 11
+    scoring_player: Aman
+    assist_player: Maverick
     minute: 7
   - timestamp: 8:52
     scoring_team: A
@@ -35,7 +35,7 @@ goals:
   - timestamp: 10:18
     scoring_team: H
     scoring_player: Carrick
-    assist_player: Goalie
+    assist_player: Sebastian
     minute: 10
   - timestamp: 13:15
     scoring_team: A
@@ -53,6 +53,6 @@ goals:
     minute: 25
   - timestamp: 33:54
     scoring_team: H
-    scoring_player: 68
+    scoring_player: Rafa
     assist_player: Carrick
     minute: 33
