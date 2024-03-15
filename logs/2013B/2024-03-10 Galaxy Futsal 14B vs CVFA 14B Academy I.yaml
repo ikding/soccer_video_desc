@@ -1,0 +1,58 @@
+date: 2024-03-10
+division: US Futsal NW Regional U10
+round: Final
+home_team:  Galaxy Futsal 14B
+away_team: CVFA 14B Academy I
+goals:
+  - timestamp: 0:20
+    scoring_team: A
+    scoring_player: 31
+    minute: 1
+  - timestamp: 2:27
+    scoring_team: A
+    scoring_player: 31
+    assist_player: 7
+    minute: 3
+  - timestamp: 4:32
+    scoring_team: A
+    scoring_player: 7
+    assist_player: 31
+    minute: 5
+  - timestamp: 6:18
+    scoring_team: A
+    scoring_player: 7
+    minute: 6
+  - timestamp: 7:06
+    scoring_team: H
+    scoring_player: 7
+    assist_player: 11
+    minute: 7
+  - timestamp: 8:52
+    scoring_team: A
+    scoring_player: 27
+    assist_player: 16
+    minute: 9
+  - timestamp: 10:18
+    scoring_team: H
+    scoring_player: Carrick
+    assist_player: Goalie
+    minute: 10
+  - timestamp: 13:15
+    scoring_team: A
+    scoring_player: 31
+    assist_player: 16
+    minute: 13
+  - timestamp: 13:58
+    scoring_team: A
+    scoring_player: 12
+    minute: 13
+  - timestamp: 25:26
+    scoring_team: A
+    scoring_player: 12
+    assist_player: 31
+    minute: 25
+  - timestamp: 33:54
+    scoring_team: H
+    scoring_player: 68
+    assist_player: Carrick
+    minute: 33
