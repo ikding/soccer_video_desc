@@ -1,0 +1,34 @@
+date: 2024-03-10
+division: US Futsal NW Regional U11
+round: S/F
+home_team:  Bay Area Roots Black 13B
+home_team_abbrev: Bay Area Roots
+away_team: Rose City Futsal 2013B
+goals:
+  - timestamp: 1:52
+    scoring_team: A
+    scoring_player: 7
+    assist_player: 5
+    minute: 3
+  - timestamp: 9:04
+    scoring_team: H
+    scoring_player: Eli
+    minute: 10
+  - timestamp: 14:22
+    scoring_team: H
+    scoring_player: Eli
+    minute: 15
+  - timestamp: 21:49
+    scoring_team: H
+    scoring_player: Mateo
+    minute: 22
+  - timestamp: 27:24
+    scoring_team: H
+    scoring_player: Galvan
+    assist_player: Eli
+    minute: 28
+  - timestamp: 36:17
+    scoring_team: A
+    scoring_player: 7
+    assist_player: 10
+    minute: 37

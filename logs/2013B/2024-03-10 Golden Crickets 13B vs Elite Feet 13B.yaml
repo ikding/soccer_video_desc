@@ -1,0 +1,30 @@
+date: 2024-03-10
+division: US Futsal NW Regional U11
+round: S/F
+home_team:  Golden Crickets 13B
+away_team: Elite Feet 13B
+goals:
+  - timestamp: 1:26
+    scoring_team: A
+    scoring_player: 10
+    assist_player: 11
+    minute: 3
+  - timestamp: 8:21
+    scoring_team: H
+    scoring_player: Bryan
+    minute: 10
+  - timestamp: 24:27
+    scoring_team: H
+    scoring_player: Bryan
+    assist_player: Jerry
+    minute: 26
+  - timestamp: 31:52
+    scoring_team: H
+    scoring_player: Colin
+    assist_player: Myles
+    minute: 34
+  - timestamp: 37:36
+    scoring_team: A
+    scoring_player: 47
+    assist_player: PK
+    minute: 39
