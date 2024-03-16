@@ -73,19 +73,25 @@ def parse_goal(string: str, home_team: str, away_team: str) -> Goal:
         Goal: A Goal object representing the goal.
     """
     timestamp, rest = string.split(" ", 1)
-    scoring_team, rest = rest.split(" - ", 1)
+    try:
+        scoring_team, rest = rest.split(" - ", 1)
+    except ValueError:
+        scoring_team, rest = rest.split(":", 1)
     if "assist from" in rest:
         scoring_player, rest = rest.split(" (assist from ", 1)
         assist_player, rest = re.split(r"\)\s?:", rest)
+    elif "free kick" in rest:
+        scoring_player, rest = rest.split(" (free kick)", 1)
+        assist_player = "FK"
+    elif "penalty kick" in rest:
+        scoring_player, rest = rest.split(" (penalty kick)", 1)
+        assist_player = "PK"
     else:
         scoring_player = rest.split(":")[0].strip()
         assist_player = None
+        if re.match(r"^\d{1,2}-\d{1,2}", scoring_player):
+            scoring_player = "?"
     minute = None
-
-    if " (assist from " in rest:
-        assist_player, rest = rest.split(" (assist from ", 1)
-        assist_player = assist_player.strip()
-        assist_player = assist_player.rstrip(")")
 
     scoring_team = get_close_matches(
         scoring_team, [home_team, away_team], n=1, cutoff=0.25
@@ -175,20 +181,18 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
 
     multiline_string = """
-2022-09-10 Norcal U10B Region 1/2 Gold South
+2022-10-30 Las Vegas Mayor's Cup U14 First Div (Consolation)
 
-Bay Area Surf 2 : 4 ECFC
+Bay Area Surf 2 : 6 Las Vegas Sports Academy
 
-4:11 ECFC - #8: 0-1
-5:06 ECFC - #8 (assist from #20): 0-2
-6:45 ECFC - #3: 0-3
-9:42 ECFC - #6 (assist from #11) : 0-4
-10:01 Surf - Luke: 1-4
-10:31 Surf - Jamie (assist from Alex): 2-4
-
-Norcal U10B Region 1/2 Gold South (2022 fall league) - Event Page: https://system.gotsport.com/org_event/events/15482/schedules?group=90450
-
-2022/23 (2013B) Norcal U10 Playlist: https://youtube.com/playlist?list=PLo96kgYq9NqugI0qLezxyQB0Z891dNvBJ
+3:13 Surf - JC (assist from Ken): 1-0
+6:08 LVSA: 1-1
+7:55 Surf - Ken (assist from Karsten): 2-1
+10:16 LVSA: 2-2
+11:25 LVSA: 2-3
+11:56 LVSA: 2-4
+13:46 LVSA: 2-5
+14:22 LVSA: 2-6
 """
 
     game, goals = parse_all_fields(multiline_string)
