@@ -70,7 +70,7 @@ def test_abbreviate_title(input, expected, max_title_length):
         pytest.param(
             """
 date: 2023-11-04
-division: Norcal U12 Premier
+division: NorCal U12 Premier
 home_team: Bay Area Surf 13B Pre-MLS
 away_team: Palo Alto SC 12B Gold
 goals:
@@ -101,9 +101,9 @@ goals:
     minute: 13
             """,
             """
-Bay Area Surf 13B Pre-MLS 3-2 Palo Alto SC 12B Gold | Norcal U12 Premier | 2023-11-04
+Bay Area Surf 13B Pre-MLS 3-2 Palo Alto SC 12B Gold | NorCal U12 Premier | 2023-11-04
 
-2023-11-04 Norcal U12 Premier
+2023-11-04 NorCal U12 Premier
 
 Bay Area Surf 13B Pre-MLS 3-2 Palo Alto SC 12B Gold
 
