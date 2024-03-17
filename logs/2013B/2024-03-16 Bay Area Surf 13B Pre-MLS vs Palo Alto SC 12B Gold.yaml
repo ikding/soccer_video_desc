@@ -1,0 +1,34 @@
+date: 2024-03-16
+division: NorCal U12 Premier
+round: null
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: Palo Alto SC 12B Gold
+goals:
+  - timestamp: 7:46
+    scoring_team: H
+    scoring_player: Owen
+    assist_player: Dominic
+    minute: 11
+  - timestamp: 10:18
+    scoring_team: H
+    scoring_player: Mateo
+    assist_player: Ayden
+    minute: 14
+  - timestamp: 31:34
+    scoring_team: H
+    scoring_player: Dominic
+    assist_player: Alexander
+    minute: 47
+  - timestamp: 32:41
+    scoring_team: H
+    scoring_player: Owen
+    minute: 48
+  - timestamp: 33:42
+    scoring_team: H
+    scoring_player: Owen
+    assist_player: Luke
+    minute: 47
+  - timestamp: 35:12
+    scoring_team: A
+    scoring_player: 27
+    minute: 52
