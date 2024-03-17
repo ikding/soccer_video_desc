@@ -1,0 +1,58 @@
+date: 2022-10-23
+division: NorCal U10 Gold
+home_team: Bay Area Surf 13B Black
+away_team: Santa Clara Sporting 13B Green
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:35
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: null
+  minute: null
+- timestamp: 0:57
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Issei
+  minute: null
+- timestamp: '2:08'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Issei
+  minute: null
+- timestamp: '2:38'
+  scoring_team: H
+  scoring_player: OG
+  assist_player: null
+  minute: null
+- timestamp: '3:52'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: null
+  minute: null
+- timestamp: '5:49'
+  scoring_team: H
+  scoring_player: Alvin
+  assist_player: PK
+  minute: null
+- timestamp: '6:32'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: null
+  minute: null
+- timestamp: '7:55'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: Issei
+  minute: null
+- timestamp: '9:33'
+  scoring_team: A
+  scoring_player: 13
+  assist_player: null
+  minute: null
+- timestamp: '10:27'
+  scoring_team: H
+  scoring_player: Arman
+  assist_player: null
+  minute: null

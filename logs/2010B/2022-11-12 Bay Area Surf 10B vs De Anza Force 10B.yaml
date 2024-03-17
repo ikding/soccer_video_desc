@@ -1,0 +1,38 @@
+date: 2022-11-12
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: De Anza Force 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:04'
+  scoring_team: A
+  scoring_player: 4
+  assist_player: null
+  minute: null
+- timestamp: '7:04'
+  scoring_team: A
+  scoring_player: 27
+  assist_player: null
+  minute: null
+- timestamp: '11:08'
+  scoring_team: A
+  scoring_player: 11
+  assist_player: null
+  minute: null
+- timestamp: '12:00'
+  scoring_team: A
+  scoring_player: 20
+  assist_player: null
+  minute: null
+- timestamp: '12:22'
+  scoring_team: A
+  scoring_player: 9
+  assist_player: null
+  minute: null
+- timestamp: '15:48'
+  scoring_team: A
+  scoring_player: 99
+  assist_player: null
+  minute: null

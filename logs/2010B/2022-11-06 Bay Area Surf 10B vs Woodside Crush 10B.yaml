@@ -1,0 +1,18 @@
+date: 2022-11-06
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Woodside Crush 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '9:25'
+  scoring_team: A
+  scoring_player: 24
+  assist_player: null
+  minute: null
+- timestamp: '14:30'
+  scoring_team: H
+  scoring_player: Robbie
+  assist_player: Alex
+  minute: null

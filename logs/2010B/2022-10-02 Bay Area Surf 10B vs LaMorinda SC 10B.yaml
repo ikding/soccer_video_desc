@@ -1,0 +1,23 @@
+date: 2022-10-02
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: LaMorinda SC 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: LaMorinda
+goals:
+- timestamp: '1:00'
+  scoring_team: H
+  scoring_player: Andy
+  assist_player: Galvan
+  minute: null
+- timestamp: '3:12'
+  scoring_team: H
+  scoring_player: Andy
+  assist_player: Alex
+  minute: null
+- timestamp: '7:39'
+  scoring_team: H
+  scoring_player: Alex
+  assist_player: Dino
+  minute: null

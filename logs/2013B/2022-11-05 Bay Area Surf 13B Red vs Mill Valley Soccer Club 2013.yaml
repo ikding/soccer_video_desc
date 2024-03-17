@@ -1,0 +1,63 @@
+date: 2022-11-05
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Red
+away_team: Mill Valley Soccer Club
+round: null
+home_team_abbrev: null
+away_team_abbrev: MVSC
+goals:
+- timestamp: 0:44
+  scoring_team: H
+  scoring_player: Owen
+  assist_player: Joshua
+  minute: null
+- timestamp: '2:42'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Owen
+  minute: null
+- timestamp: '3:05'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Owen
+  minute: null
+- timestamp: '3:56'
+  scoring_team: H
+  scoring_player: Eli
+  assist_player: null
+  minute: null
+- timestamp: '5:20'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Owen
+  minute: null
+- timestamp: '5:47'
+  scoring_team: H
+  scoring_player: Owen
+  assist_player: Dilan
+  minute: null
+- timestamp: '8:46'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: null
+  minute: null
+- timestamp: '10:47'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Owen
+  minute: null
+- timestamp: '11:25'
+  scoring_team: H
+  scoring_player: Ryon
+  assist_player: Galvan
+  minute: null
+- timestamp: '14:10'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Ryon
+  minute: null
+- timestamp: '14:54'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Galvan
+  minute: null

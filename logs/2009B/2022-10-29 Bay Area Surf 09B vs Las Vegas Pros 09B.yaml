@@ -1,0 +1,33 @@
+date: 2022-10-29
+division: LV Mayor's Cup U14 1st Div
+home_team: Bay Area Surf 09B
+away_team: Las Vegas Pros Futbol Club 2009
+round: null
+home_team_abbrev: null
+away_team_abbrev: Las Vegas Pros
+goals:
+- timestamp: 0:53
+  scoring_team: H
+  scoring_player: Bodhi
+  assist_player: Karsten
+  minute: null
+- timestamp: '1:46'
+  scoring_team: H
+  scoring_player: Karsten
+  assist_player: JC
+  minute: null
+- timestamp: '6:37'
+  scoring_team: H
+  scoring_player: Houssein
+  assist_player: PK
+  minute: null
+- timestamp: '8:14'
+  scoring_team: A
+  scoring_player: 7
+  assist_player: null
+  minute: null
+- timestamp: '16:18'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null

@@ -1,0 +1,48 @@
+date: 2022-10-15
+division: NorCal U10 Gold
+home_team: Bay Area Surf 13B Black
+away_team: De Anza Force 13B Elite
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:47'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: Arman
+  minute: null
+- timestamp: '4:16'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Hudson
+  minute: null
+- timestamp: '5:09'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Dilan
+  minute: null
+- timestamp: '6:08'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Luke
+  minute: null
+- timestamp: '10:05'
+  scoring_team: H
+  scoring_player: Alex
+  assist_player: PK
+  minute: null
+- timestamp: '11:05'
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: Dilan
+  minute: null
+- timestamp: '11:57'
+  scoring_team: A
+  scoring_player: Eric
+  assist_player: null
+  minute: null
+- timestamp: '13:07'
+  scoring_team: H
+  scoring_player: Joshua
+  assist_player: Dilan
+  minute: null

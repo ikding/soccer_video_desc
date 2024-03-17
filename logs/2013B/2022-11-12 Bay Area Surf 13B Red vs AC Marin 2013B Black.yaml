@@ -1,0 +1,43 @@
+date: 2022-11-12
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Red
+away_team: AC Marin 2013B Black
+round: Prem 1 S/F
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:21
+  scoring_team: A
+  scoring_player: 7
+  assist_player: null
+  minute: null
+- timestamp: 0:33
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Galvan
+  minute: null
+- timestamp: '2:15'
+  scoring_team: A
+  scoring_player: 7
+  assist_player: null
+  minute: null
+- timestamp: '8:54'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Owen
+  minute: null
+- timestamp: '10:22'
+  scoring_team: H
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '11:25'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Alexander
+  minute: null
+- timestamp: '12:41'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Joshua
+  minute: null

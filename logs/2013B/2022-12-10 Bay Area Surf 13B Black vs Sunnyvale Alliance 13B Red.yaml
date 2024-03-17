@@ -1,0 +1,88 @@
+date: 2022-12-10
+division: NorCal U10 Gold
+home_team: Bay Area Surf 13B Black
+away_team: Sunnyvale Alliance 13B Red
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:19
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: null
+  minute: null
+- timestamp: '1:49'
+  scoring_team: H
+  scoring_player: Alex
+  assist_player: Issei
+  minute: null
+- timestamp: '2:11'
+  scoring_team: A
+  scoring_player: 27
+  assist_player: null
+  minute: null
+- timestamp: '2:29'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: null
+  minute: null
+- timestamp: '4:11'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Arman
+  minute: null
+- timestamp: '4:51'
+  scoring_team: H
+  scoring_player: Arman
+  assist_player: null
+  minute: null
+- timestamp: '5:31'
+  scoring_team: H
+  scoring_player: Issei
+  assist_player: Alexander
+  minute: null
+- timestamp: '5:59'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Hudson
+  minute: null
+- timestamp: '7:43'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: null
+  minute: null
+- timestamp: '8:21'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Luke
+  minute: null
+- timestamp: '8:47'
+  scoring_team: H
+  scoring_player: Arman
+  assist_player: Luke
+  minute: null
+- timestamp: '9:18'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Hudson
+  minute: null
+- timestamp: '10:06'
+  scoring_team: H
+  scoring_player: Alvin
+  assist_player: null
+  minute: null
+- timestamp: '10:22'
+  scoring_team: H
+  scoring_player: Joshua
+  assist_player: Hudson
+  minute: null
+- timestamp: '11:01'
+  scoring_team: H
+  scoring_player: Joshua
+  assist_player: Hudson
+  minute: null
+- timestamp: '12:22'
+  scoring_team: H
+  scoring_player: Alvin
+  assist_player: Dilan
+  minute: null

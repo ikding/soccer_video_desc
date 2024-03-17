@@ -1,0 +1,58 @@
+date: 2022-10-29
+division: LV Mayor's Cup U10 1st Div
+home_team: Bay Area Surf 13B Black
+away_team: Las Vegas Diversity FC 13
+round: null
+home_team_abbrev: null
+away_team_abbrev: Las Vegas Diversity
+goals:
+- timestamp: 0:25
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Joshua
+  minute: null
+- timestamp: '1:00'
+  scoring_team: H
+  scoring_player: Hudson
+  assist_player: Dilan
+  minute: null
+- timestamp: '3:58'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '4:03'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '4:23'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Luke
+  minute: null
+- timestamp: '5:29'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '5:51'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Hudson
+  minute: null
+- timestamp: '7:16'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Joshua
+  minute: null
+- timestamp: '8:23'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: null
+  minute: null
+- timestamp: '13:09'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null

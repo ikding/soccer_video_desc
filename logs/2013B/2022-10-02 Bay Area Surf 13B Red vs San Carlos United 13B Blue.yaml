@@ -1,0 +1,68 @@
+date: 2022-10-02
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Red
+away_team: San Carlos United 13B Blue
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:42
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Alvin
+  minute: null
+- timestamp: '1:23'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: null
+  minute: null
+- timestamp: '1:48'
+  scoring_team: H
+  scoring_player: Alvin
+  assist_player: Alexander
+  minute: null
+- timestamp: '4:44'
+  scoring_team: H
+  scoring_player: Owen
+  assist_player: Owen
+  minute: null
+- timestamp: '5:11'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Luke
+  minute: null
+- timestamp: '7:12'
+  scoring_team: H
+  scoring_player: Owen
+  assist_player: Christian
+  minute: null
+- timestamp: '7:59'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Luke
+  minute: null
+- timestamp: '10:32'
+  scoring_team: H
+  scoring_player: Joshua
+  assist_player: Luke
+  minute: null
+- timestamp: '10:58'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: Owen
+  minute: null
+- timestamp: '11:42'
+  scoring_team: H
+  scoring_player: Joshua
+  assist_player: Luke
+  minute: null
+- timestamp: '13:05'
+  scoring_team: H
+  scoring_player: Alvin
+  assist_player: Owen
+  minute: null
+- timestamp: '13:45'
+  scoring_team: H
+  scoring_player: Alvin
+  assist_player: Alexander
+  minute: null

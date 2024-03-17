@@ -1,0 +1,48 @@
+date: 2022-10-22
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Breakers 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:25
+  scoring_team: A
+  scoring_player: 21
+  assist_player: null
+  minute: null
+- timestamp: '3:41'
+  scoring_team: A
+  scoring_player: 23
+  assist_player: null
+  minute: null
+- timestamp: '3:56'
+  scoring_team: H
+  scoring_player: Robbie
+  assist_player: Galvan
+  minute: null
+- timestamp: '5:40'
+  scoring_team: A
+  scoring_player: 1
+  assist_player: 23
+  minute: null
+- timestamp: '7:25'
+  scoring_team: A
+  scoring_player: 23
+  assist_player: 35
+  minute: null
+- timestamp: '11:49'
+  scoring_team: A
+  scoring_player: 7
+  assist_player: 24
+  minute: null
+- timestamp: '12:59'
+  scoring_team: H
+  scoring_player: Ethan
+  assist_player: null
+  minute: null
+- timestamp: '14:48'
+  scoring_team: H
+  scoring_player: Dino
+  assist_player: Julian
+  minute: null

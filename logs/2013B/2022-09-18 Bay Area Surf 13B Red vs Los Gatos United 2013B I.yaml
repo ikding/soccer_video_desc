@@ -1,0 +1,38 @@
+date: 2022-09-18
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Red
+away_team: Los Gatos United 2013B I
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:53
+  scoring_team: H
+  scoring_player: Ryon
+  assist_player: Dilan
+  minute: null
+- timestamp: '3:19'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Alvin
+  minute: null
+- timestamp: '7:33'
+  scoring_team: A
+  scoring_player: 3
+  assist_player: null
+  minute: null
+- timestamp: '10:22'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Alexander
+  minute: null
+- timestamp: '13:27'
+  scoring_team: A
+  scoring_player: 25
+  assist_player: 21
+  minute: null
+- timestamp: '13:58'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Luke
+  minute: null

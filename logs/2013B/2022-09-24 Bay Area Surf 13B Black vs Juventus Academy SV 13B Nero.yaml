@@ -1,0 +1,38 @@
+date: 2022-09-24
+division: NorCal U10 Gold
+home_team: Bay Area Surf 13B Black
+away_team: Juventus Academy SV 13B Nero
+round: null
+home_team_abbrev: null
+away_team_abbrev: Juventus
+goals:
+- timestamp: '1:42'
+  scoring_team: A
+  scoring_player: 23
+  assist_player: null
+  minute: null
+- timestamp: '2:55'
+  scoring_team: H
+  scoring_player: Hudson
+  assist_player: null
+  minute: null
+- timestamp: '4:30'
+  scoring_team: A
+  scoring_player: 6
+  assist_player: null
+  minute: null
+- timestamp: '10:01'
+  scoring_team: H
+  scoring_player: Joshua
+  assist_player: null
+  minute: null
+- timestamp: '10:47'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Hudson
+  minute: null
+- timestamp: '14:06'
+  scoring_team: H
+  scoring_player: Hudson
+  assist_player: null
+  minute: null

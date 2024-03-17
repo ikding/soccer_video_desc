@@ -1,0 +1,53 @@
+date: 2022-12-03
+division: NorCal U10 Gold
+home_team: Bay Area Surf Black
+away_team: Bay Area Surf White
+round: null
+home_team_abbrev: Surf Black
+away_team_abbrev: Surf White
+goals:
+- timestamp: '1:54'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: null
+  minute: null
+- timestamp: '2:29'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Arman
+  minute: null
+- timestamp: '4:30'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '5:45'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Hudson
+  minute: null
+- timestamp: '8:18'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Hudson
+  minute: null
+- timestamp: '8:57'
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: Alexander
+  minute: null
+- timestamp: '9:12'
+  scoring_team: A
+  scoring_player: Aarin
+  assist_player: Olli
+  minute: null
+- timestamp: '9:47'
+  scoring_team: A
+  scoring_player: 18
+  assist_player: Aarin
+  minute: null
+- timestamp: '10:31'
+  scoring_team: A
+  scoring_player: Olli
+  assist_player: Aarin
+  minute: null

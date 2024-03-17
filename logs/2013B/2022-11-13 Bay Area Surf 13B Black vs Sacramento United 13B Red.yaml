@@ -1,0 +1,28 @@
+date: 2022-11-13
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Black
+away_team: Sacramento United 13B Red
+round: Prem 4 Final
+home_team_abbrev: null
+away_team_abbrev: Sac United
+goals:
+- timestamp: 0:50
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '1:07'
+  scoring_team: H
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '12:33'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '13:57'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null

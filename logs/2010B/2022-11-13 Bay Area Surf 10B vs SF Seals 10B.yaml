@@ -1,0 +1,58 @@
+date: 2022-11-13
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: SF Seals 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:41
+  scoring_team: A
+  scoring_player: 32
+  assist_player: 20
+  minute: null
+- timestamp: '4:47'
+  scoring_team: A
+  scoring_player: 26
+  assist_player: 39
+  minute: null
+- timestamp: '5:20'
+  scoring_team: A
+  scoring_player: 39
+  assist_player: null
+  minute: null
+- timestamp: '5:41'
+  scoring_team: A
+  scoring_player: 39
+  assist_player: null
+  minute: null
+- timestamp: '6:17'
+  scoring_team: A
+  scoring_player: 39
+  assist_player: 32
+  minute: null
+- timestamp: '6:50'
+  scoring_team: A
+  scoring_player: 23
+  assist_player: null
+  minute: null
+- timestamp: '7:37'
+  scoring_team: A
+  scoring_player: 39
+  assist_player: 27
+  minute: null
+- timestamp: '9:20'
+  scoring_team: H
+  scoring_player: Andy
+  assist_player: null
+  minute: null
+- timestamp: '10:14'
+  scoring_team: H
+  scoring_player: Robbie
+  assist_player: Ryker
+  minute: null
+- timestamp: '12:44'
+  scoring_team: H
+  scoring_player: Robbie
+  assist_player: Dino
+  minute: null

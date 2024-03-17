@@ -1,0 +1,48 @@
+date: 2022-10-30
+division: LV Mayor's Cup U14 1st Div
+home_team: Bay Area Surf 09B
+away_team: Las Vegas Sports Academy 09B
+round: null
+home_team_abbrev: null
+away_team_abbrev: LVSA
+goals:
+- timestamp: '3:13'
+  scoring_team: H
+  scoring_player: JC
+  assist_player: Ken
+  minute: null
+- timestamp: '6:08'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '7:55'
+  scoring_team: H
+  scoring_player: Ken
+  assist_player: Karsten
+  minute: null
+- timestamp: '10:16'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '11:25'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '11:56'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '13:46'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '14:22'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null

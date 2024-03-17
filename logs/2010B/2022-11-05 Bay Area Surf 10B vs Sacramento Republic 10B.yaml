@@ -1,0 +1,23 @@
+date: 2022-11-05
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Sacramento Republic 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: Sac Republic
+goals:
+- timestamp: '1:00'
+  scoring_team: H
+  scoring_player: Ethan
+  assist_player: null
+  minute: null
+- timestamp: '5:09'
+  scoring_team: H
+  scoring_player: Robbie
+  assist_player: Ethan
+  minute: null
+- timestamp: '13:52'
+  scoring_team: A
+  scoring_player: 27
+  assist_player: null
+  minute: null

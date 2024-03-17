@@ -1,0 +1,38 @@
+date: 2022-09-11
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Red
+away_team: De Anza Force 13B Elite
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:16
+  scoring_team: H
+  scoring_player: Christian
+  assist_player: Galvan
+  minute: null
+- timestamp: '7:27'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Owen
+  minute: null
+- timestamp: '9:53'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Alvin
+  minute: null
+- timestamp: '10:27'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Alvin
+  minute: null
+- timestamp: '10:59'
+  scoring_team: H
+  scoring_player: Christian
+  assist_player: Galvan
+  minute: null
+- timestamp: '11:45'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Alvin
+  minute: null

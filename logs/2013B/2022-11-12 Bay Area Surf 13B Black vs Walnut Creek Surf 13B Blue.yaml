@@ -1,0 +1,68 @@
+date: 2022-11-12
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Black
+away_team: Walnut Creek Surf 13B Blue
+round: Prem 4 S/F
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:45'
+  scoring_team: H
+  scoring_player: Gio
+  assist_player: Ryan
+  minute: null
+- timestamp: '2:09'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '2:34'
+  scoring_team: H
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '3:12'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '3:54'
+  scoring_team: H
+  scoring_player: Matteo
+  assist_player: null
+  minute: null
+- timestamp: '4:48'
+  scoring_team: H
+  scoring_player: Nathaniel
+  assist_player: null
+  minute: null
+- timestamp: '5:28'
+  scoring_team: H
+  scoring_player: Carter
+  assist_player: Matteo
+  minute: null
+- timestamp: '6:44'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '7:29'
+  scoring_team: H
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '10:19'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '11:21'
+  scoring_team: H
+  scoring_player: Issei
+  assist_player: null
+  minute: null
+- timestamp: '13:28'
+  scoring_team: H
+  scoring_player: Nathaniel
+  assist_player: Jamie
+  minute: null

@@ -1,0 +1,23 @@
+date: 2022-10-30
+division: LV Mayor's Cup U10 1st Div
+home_team: Bay Area Surf 13B Black
+away_team: CV Futbol Academy 13B I
+round: S/F
+home_team_abbrev: null
+away_team_abbrev: CVFA
+goals:
+- timestamp: '5:47'
+  scoring_team: A
+  scoring_player: 6
+  assist_player: null
+  minute: null
+- timestamp: '9:56'
+  scoring_team: A
+  scoring_player: 6
+  assist_player: null
+  minute: null
+- timestamp: '11:27'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Arman
+  minute: null

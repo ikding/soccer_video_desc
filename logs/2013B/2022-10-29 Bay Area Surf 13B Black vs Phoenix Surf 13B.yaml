@@ -1,0 +1,43 @@
+date: 2022-10-29
+division: LV Mayor's Cup U10 1st Div
+home_team: Bay Area Surf
+away_team: Phoenix Surf 13B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:50
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: Hudson
+  minute: null
+- timestamp: '1:40'
+  scoring_team: H
+  scoring_player: Hudson
+  assist_player: Alexander
+  minute: null
+- timestamp: '2:11'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Hudson
+  minute: null
+- timestamp: '4:43'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Hudson
+  minute: null
+- timestamp: '5:30'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '6:33'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Jamie
+  minute: null
+- timestamp: '7:44'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: FK
+  minute: null

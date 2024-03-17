@@ -1,0 +1,58 @@
+date: 2022-11-06
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Red
+away_team: California Odyssey 13B Red
+round: Prem 1 Q/F
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:25'
+  scoring_team: H
+  scoring_player: Owen
+  assist_player: Galvan
+  minute: null
+- timestamp: '2:53'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Eli
+  minute: null
+- timestamp: '3:20'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: null
+  minute: null
+- timestamp: '4:13'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Dilan
+  minute: null
+- timestamp: '5:26'
+  scoring_team: A
+  scoring_player: 6
+  assist_player: null
+  minute: null
+- timestamp: '8:09'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Owen
+  minute: null
+- timestamp: '10:30'
+  scoring_team: H
+  scoring_player: Owen
+  assist_player: LUke
+  minute: null
+- timestamp: '13:10'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Galvan
+  minute: null
+- timestamp: '13:58'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Joshua
+  minute: null
+- timestamp: '14:16'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: null
+  minute: null

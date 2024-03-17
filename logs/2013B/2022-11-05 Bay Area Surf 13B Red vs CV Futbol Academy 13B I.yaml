@@ -1,0 +1,28 @@
+date: 2022-11-05
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Red
+away_team: CV Futbol Academy 13B I
+round: null
+home_team_abbrev: null
+away_team_abbrev: CVFA
+goals:
+- timestamp: '1:06'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Joshua
+  minute: null
+- timestamp: '7:03'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '10:07'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '11:26'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null

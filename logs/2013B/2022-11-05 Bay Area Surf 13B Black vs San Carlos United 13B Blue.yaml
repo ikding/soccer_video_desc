@@ -1,0 +1,53 @@
+date: 2022-11-05
+division: NorCal State Cup U10
+home_team: Bay Area Surf 13B Black
+away_team: San Carlos United 13B Blue
+round: null
+home_team_abbrev: null
+away_team_abbrev: SCU
+goals:
+- timestamp: '3:49'
+  scoring_team: A
+  scoring_player: 10
+  assist_player: 4
+  minute: null
+- timestamp: '4:14'
+  scoring_team: H
+  scoring_player: Ryan
+  assist_player: null
+  minute: null
+- timestamp: '6:05'
+  scoring_team: H
+  scoring_player: Ryan
+  assist_player: Carter
+  minute: null
+- timestamp: '6:33'
+  scoring_team: H
+  scoring_player: Ryan
+  assist_player: null
+  minute: null
+- timestamp: '9:11'
+  scoring_team: H
+  scoring_player: Gabriel
+  assist_player: null
+  minute: null
+- timestamp: '11:38'
+  scoring_team: H
+  scoring_player: Matteo
+  assist_player: Jamie
+  minute: null
+- timestamp: '12:07'
+  scoring_team: H
+  scoring_player: Carter
+  assist_player: Hudson
+  minute: null
+- timestamp: '14:01'
+  scoring_team: H
+  scoring_player: Nathaniel
+  assist_player: null
+  minute: null
+- timestamp: '15:53'
+  scoring_team: H
+  scoring_player: Nathaniel
+  assist_player: Carter
+  minute: null
