@@ -1,0 +1,38 @@
+date: 2023-05-13
+division: NorCal U11 Gold 1
+home_team: Bay Area Surf 13B Red
+away_team: MVLA 12B Ajax White
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:54
+  scoring_team: H
+  scoring_player: Christian
+  assist_player: FK
+  minute: null
+- timestamp: '3:14'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Owen
+  minute: null
+- timestamp: '4:00'
+  scoring_team: H
+  scoring_player: Dominic
+  assist_player: Galvan
+  minute: null
+- timestamp: '7:24'
+  scoring_team: A
+  scoring_player: 18
+  assist_player: null
+  minute: null
+- timestamp: '8:21'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: PK
+  minute: null
+- timestamp: '9:13'
+  scoring_team: H
+  scoring_player: Dominic
+  assist_player: Galvan
+  minute: null

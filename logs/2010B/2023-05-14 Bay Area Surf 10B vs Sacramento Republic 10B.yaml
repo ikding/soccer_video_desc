@@ -1,0 +1,23 @@
+date: 2023-05-14
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Sacramento Republic 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: Sac Republic
+goals:
+- timestamp: 0:29
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '2:30'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '6:33'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null

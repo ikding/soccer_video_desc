@@ -1,0 +1,18 @@
+date: 2023-05-07
+division: NorCal U11 Gold 1
+home_team: Bay Area Surf 13B Red
+away_team: San Jose Rush 13B Premier
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '4:12'
+  scoring_team: A
+  scoring_player: 8
+  assist_player: FK
+  minute: null
+- timestamp: '5:34'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Owen
+  minute: null

@@ -1,0 +1,23 @@
+date: 2023-01-22
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Napa United 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '3:41'
+  scoring_team: H
+  scoring_player: Andy
+  assist_player: Taku
+  minute: null
+- timestamp: '6:27'
+  scoring_team: A
+  scoring_player: 2
+  assist_player: null
+  minute: null
+- timestamp: '9:52'
+  scoring_team: H
+  scoring_player: OG
+  assist_player: null
+  minute: null

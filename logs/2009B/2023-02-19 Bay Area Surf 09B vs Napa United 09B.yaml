@@ -1,0 +1,18 @@
+date: 2023-02-19
+division: MLS Next U14
+home_team: Bay Area Surf 09B
+away_team: Napa United 09B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:33'
+  scoring_team: H
+  scoring_player: Tony
+  assist_player: JC
+  minute: null
+- timestamp: '13:23'
+  scoring_team: H
+  scoring_player: Seb
+  assist_player: Edson
+  minute: null

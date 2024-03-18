@@ -1,0 +1,23 @@
+date: 2023-02-18
+division: NorCal Supercopa U10
+home_team: Bay Area Surf 13B Red
+away_team: Valley Surf 13B Elite
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '8:15'
+  scoring_team: A
+  scoring_player: 7
+  assist_player: PK
+  minute: null
+- timestamp: '11:33'
+  scoring_team: H
+  scoring_player: Eli
+  assist_player: PK
+  minute: null
+- timestamp: '13:12'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Eli
+  minute: null

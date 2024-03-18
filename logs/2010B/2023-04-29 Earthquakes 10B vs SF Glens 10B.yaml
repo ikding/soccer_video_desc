@@ -1,0 +1,18 @@
+date: 2023-04-29
+division: MLS Next U13
+home_team: Earthquakes 10B
+away_team: SF Glens 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '6:52'
+  scoring_team: H
+  scoring_player: Julian
+  assist_player: Xavier
+  minute: null
+- timestamp: '10:50'
+  scoring_team: H
+  scoring_player: Julian
+  assist_player: Xavier
+  minute: null

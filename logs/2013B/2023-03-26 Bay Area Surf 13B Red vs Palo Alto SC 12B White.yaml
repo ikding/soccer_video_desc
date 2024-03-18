@@ -1,0 +1,18 @@
+date: 2023-03-26
+division: NorCal U11 Gold 1
+home_team: Bay Area Surf 13B Red
+away_team: Palo Alto SC 12B White
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '4:53'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Christian
+  minute: null
+- timestamp: '11:19'
+  scoring_team: A
+  scoring_player: 13
+  assist_player: null
+  minute: null

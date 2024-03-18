@@ -1,0 +1,23 @@
+date: 2023-02-19
+division: NorCal Supercopa U10
+home_team: Bay Area Surf 13B Red
+away_team: ECFC Salinas United 13B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:58
+  scoring_team: H
+  scoring_player: Owen
+  assist_player: null
+  minute: null
+- timestamp: '4:07'
+  scoring_team: A
+  scoring_player: 8
+  assist_player: null
+  minute: null
+- timestamp: '11:40'
+  scoring_team: A
+  scoring_player: 8
+  assist_player: null
+  minute: null

@@ -1,0 +1,73 @@
+date: 2023-05-21
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Earthquakes 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:23
+  scoring_team: A
+  scoring_player: Julian
+  assist_player: '?'
+  minute: null
+- timestamp: '1:27'
+  scoring_team: A
+  scoring_player: Julian
+  assist_player: '?'
+  minute: null
+- timestamp: '2:09'
+  scoring_team: A
+  scoring_player: Julian
+  assist_player: Preston
+  minute: null
+- timestamp: '2:49'
+  scoring_team: A
+  scoring_player: Preston
+  assist_player: '?'
+  minute: null
+- timestamp: '3:22'
+  scoring_team: A
+  scoring_player: Xavier
+  assist_player: Julian
+  minute: null
+- timestamp: '5:17'
+  scoring_team: A
+  scoring_player: Preston
+  assist_player: Seth
+  minute: null
+- timestamp: '6:17'
+  scoring_team: A
+  scoring_player: Zaid
+  assist_player: null
+  minute: null
+- timestamp: '6:45'
+  scoring_team: A
+  scoring_player: Julian
+  assist_player: Lucas
+  minute: null
+- timestamp: '7:18'
+  scoring_team: A
+  scoring_player: Zaid
+  assist_player: Kenny
+  minute: null
+- timestamp: '8:22'
+  scoring_team: A
+  scoring_player: Lucas
+  assist_player: null
+  minute: null
+- timestamp: '9:01'
+  scoring_team: A
+  scoring_player: Lucas
+  assist_player: Xavier
+  minute: null
+- timestamp: '9:49'
+  scoring_team: A
+  scoring_player: Ian
+  assist_player: FK
+  minute: null
+- timestamp: '11:11'
+  scoring_team: A
+  scoring_player: Preston
+  assist_player: 12
+  minute: null

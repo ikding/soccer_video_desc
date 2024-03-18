@@ -1,0 +1,38 @@
+date: 2022-03-25
+division: NorCal U11 Gold 1
+home_team: Bay Area Surf 13B Red
+away_team: MVLA 12B Ajax White
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:28
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Luke
+  minute: null
+- timestamp: '3:41'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Joshua
+  minute: null
+- timestamp: '4:32'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: null
+  minute: null
+- timestamp: '5:43'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: null
+  minute: null
+- timestamp: '6:37'
+  scoring_team: H
+  scoring_player: Ryan
+  assist_player: Galvan
+  minute: null
+- timestamp: '8:40'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Ayden
+  minute: null

@@ -1,0 +1,23 @@
+date: 2023-04-30
+division: NorCal U11 Gold 1
+home_team: Bay Area Surf 13B Red
+away_team: ECFC Salinas 13B Black
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '5:56'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Alvin
+  minute: null
+- timestamp: '7:42'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Alvin
+  minute: null
+- timestamp: '8:40'
+  scoring_team: H
+  scoring_player: Owen
+  assist_player: Galvan
+  minute: null

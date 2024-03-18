@@ -181,18 +181,17 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
 
     multiline_string = """
-2022-10-30 Las Vegas Mayor's Cup U14 First Div (Consolation)
+2023-06-04 Surf Challenge Reno U11 (Semifinals)
 
-Bay Area Surf 2 : 6 Las Vegas Sports Academy
+Bay Area Surf 5 : 2 Fremont Rush
 
-3:13 Surf - JC (assist from Ken): 1-0
-6:08 LVSA: 1-1
-7:55 Surf - Ken (assist from Karsten): 2-1
-10:16 LVSA: 2-2
-11:25 LVSA: 2-3
-11:56 LVSA: 2-4
-13:46 LVSA: 2-5
-14:22 LVSA: 2-6
+1:20 Rush - #23 (assist from #5): 0-1
+2:31 Surf - Liam (assist from Luke): 1-1
+2:59 Surf - Dilan: 2-1
+3:53 Surf - Carter (assist from Joshua): 3-1
+5:20 Surf - Joshua (PK): 4-1
+7:01 Surf - Dilan (assist from Liam): 5-1
+8:31 Rush - #23 (free kick): 5-2
 """
 
     game, goals = parse_all_fields(multiline_string)

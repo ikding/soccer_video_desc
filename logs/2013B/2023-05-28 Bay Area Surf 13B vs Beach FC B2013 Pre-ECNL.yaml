@@ -1,0 +1,28 @@
+date: 2023-05-28
+division: Man City Cup U10 Champions
+home_team: Bay Area Surf 13B
+away_team: Beach FC B2013 Pre-ECNL
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:23'
+  scoring_team: A
+  scoring_player: 0
+  assist_player: 7
+  minute: null
+- timestamp: '4:09'
+  scoring_team: A
+  scoring_player: 15
+  assist_player: 14
+  minute: null
+- timestamp: '5:21'
+  scoring_team: A
+  scoring_player: 26
+  assist_player: 10
+  minute: null
+- timestamp: '7:23'
+  scoring_team: A
+  scoring_player: 26
+  assist_player: FK
+  minute: null

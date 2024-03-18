@@ -1,0 +1,28 @@
+date: 2023-03-19
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Ballistic United 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:13'
+  scoring_team: A
+  scoring_player: 4
+  assist_player: '?'
+  minute: null
+- timestamp: '1:37'
+  scoring_team: A
+  scoring_player: 14
+  assist_player: 10
+  minute: null
+- timestamp: '5:48'
+  scoring_team: A
+  scoring_player: 10
+  assist_player: PK
+  minute: null
+- timestamp: '10:08'
+  scoring_team: A
+  scoring_player: 14
+  assist_player: 9
+  minute: null

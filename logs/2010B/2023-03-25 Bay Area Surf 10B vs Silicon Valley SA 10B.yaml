@@ -1,0 +1,28 @@
+date: 2023-03-25
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Silicon Valley SA 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: SVSA
+goals:
+- timestamp: '4:27'
+  scoring_team: A
+  scoring_player: 17
+  assist_player: '?'
+  minute: null
+- timestamp: '5:23'
+  scoring_team: H
+  scoring_player: Andy
+  assist_player: Taku
+  minute: null
+- timestamp: '11:34'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: FK
+  minute: null
+- timestamp: '11:59'
+  scoring_team: H
+  scoring_player: Andy
+  assist_player: Edson
+  minute: null

@@ -1,0 +1,53 @@
+date: 2023-05-07
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: SF Glens 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:55
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '3:12'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Riaan
+  minute: null
+- timestamp: '5:03'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '6:47'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '7:15'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '7:30'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '7:51'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Julian
+  minute: null
+- timestamp: '8:35'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '8:55'
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null

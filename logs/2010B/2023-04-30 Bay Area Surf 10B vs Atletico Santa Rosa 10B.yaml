@@ -1,0 +1,18 @@
+date: 2023-04-30
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Atletico Santa Rosa 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:57
+  scoring_team: A
+  scoring_player: '?'
+  assist_player: null
+  minute: null
+- timestamp: '2:52'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Adrian
+  minute: null

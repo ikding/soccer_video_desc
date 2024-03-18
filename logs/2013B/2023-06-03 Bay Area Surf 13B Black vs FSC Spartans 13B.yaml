@@ -1,0 +1,38 @@
+date: 2023-06-03
+division: Surf Challenge Reno U11
+home_team: Bay Area Surf 13B Black
+away_team: FSC Spartans 13B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:20'
+  scoring_team: H
+  scoring_player: Liam
+  assist_player: null
+  minute: null
+- timestamp: '4:29'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Luke
+  minute: null
+- timestamp: '6:15'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: null
+  minute: null
+- timestamp: '7:39'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Liam
+  minute: null
+- timestamp: '11:22'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: Atticus
+  minute: null
+- timestamp: '11:47'
+  scoring_team: H
+  scoring_player: Atticus
+  assist_player: Matteo
+  minute: null

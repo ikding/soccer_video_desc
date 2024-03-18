@@ -1,0 +1,58 @@
+date: 2023-06-03
+division: Surf Challenge Reno U11
+home_team: Bay Area Surf 13B Black
+away_team: Truckee River United 2013B Blue
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:17
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: Liam
+  minute: null
+- timestamp: '1:18'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: Issei
+  minute: null
+- timestamp: '2:39'
+  scoring_team: H
+  scoring_player: Matteo
+  assist_player: Liam
+  minute: null
+- timestamp: '5:15'
+  scoring_team: H
+  scoring_player: Issei
+  assist_player: null
+  minute: null
+- timestamp: '6:13'
+  scoring_team: H
+  scoring_player: Joshua
+  assist_player: null
+  minute: null
+- timestamp: '7:12'
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: Atticus
+  minute: null
+- timestamp: '8:16'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Joshua
+  minute: null
+- timestamp: '8:48'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Olli
+  minute: null
+- timestamp: '9:58'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Jamie
+  minute: null
+- timestamp: '10:41'
+  scoring_team: H
+  scoring_player: Carter
+  assist_player: Luke
+  minute: null

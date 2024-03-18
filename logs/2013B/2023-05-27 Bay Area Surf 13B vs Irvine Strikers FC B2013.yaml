@@ -1,0 +1,18 @@
+date: 2023-05-27
+division: Man City Cup U10 Champions
+home_team: Bay Area Surf 13B
+away_team: Irvine Strikers FC B2013
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '2:44'
+  scoring_team: A
+  scoring_player: 8
+  assist_player: 10
+  minute: null
+- timestamp: '7:44'
+  scoring_team: A
+  scoring_player: 5
+  assist_player: 6
+  minute: null

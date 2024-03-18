@@ -1,0 +1,43 @@
+date: 2023-04-08
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Sheriffs 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:33
+  scoring_team: H
+  scoring_player: Adolfo
+  assist_player: Ethan
+  minute: null
+- timestamp: '3:18'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Edson
+  minute: null
+- timestamp: '3:42'
+  scoring_team: H
+  scoring_player: Andy
+  assist_player: Galvan
+  minute: null
+- timestamp: '4:16'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Ethan
+  minute: null
+- timestamp: '6:45'
+  scoring_team: A
+  scoring_player: 71
+  assist_player: 14
+  minute: null
+- timestamp: '12:32'
+  scoring_team: A
+  scoring_player: 71
+  assist_player: null
+  minute: null
+- timestamp: '14:03'
+  scoring_team: A
+  scoring_player: 14
+  assist_player: 19
+  minute: null

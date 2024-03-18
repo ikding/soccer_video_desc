@@ -1,0 +1,18 @@
+date: 2023-02-19
+division: NorCal Supercopa U10
+home_team: Bay Area Surf 13B Red
+away_team: Ajax United 13B Green
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '3:43'
+  scoring_team: H
+  scoring_player: Eli
+  assist_player: null
+  minute: null
+- timestamp: '6:29'
+  scoring_team: H
+  scoring_player: Eli
+  assist_player: Galvan
+  minute: null

@@ -1,0 +1,28 @@
+date: 2023-04-02
+division: NorCal U10 Gold
+home_team: Bay Area Surf 14B
+away_team: Los Gatos United 2013B I
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '2:09'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: null
+  minute: null
+- timestamp: '4:42'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: PK
+  minute: null
+- timestamp: '9:10'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Lenny
+  minute: null
+- timestamp: '11:40'
+  scoring_team: H
+  scoring_player: Thomas
+  assist_player: Carrick
+  minute: null

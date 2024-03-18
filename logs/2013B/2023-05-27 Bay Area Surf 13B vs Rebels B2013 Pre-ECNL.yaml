@@ -1,0 +1,18 @@
+date: 2023-05-27
+division: Man City Cup U10 Champions
+home_team: Bay Area Surf 13B
+away_team: Rebels B2013 Pre-ECNL
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '5:39'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Eli
+  minute: null
+- timestamp: '6:58'
+  scoring_team: H
+  scoring_player: Dominic
+  assist_player: Galvan
+  minute: null

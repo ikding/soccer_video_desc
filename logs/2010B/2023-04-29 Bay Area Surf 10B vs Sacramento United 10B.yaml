@@ -1,0 +1,18 @@
+date: 2023-04-29
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Sacramento United 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: Sac United
+goals:
+- timestamp: '3:04'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Angel
+  minute: null
+- timestamp: '5:01'
+  scoring_team: H
+  scoring_player: Andy
+  assist_player: Galvan
+  minute: null

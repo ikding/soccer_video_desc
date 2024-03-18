@@ -1,0 +1,48 @@
+date: 2023-05-20
+division: NorCal U10 Gold
+home_team: Bay Area Surf 14B
+away_team: SF Seals 13B Black
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:13
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: Milan
+  minute: null
+- timestamp: 0:57
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: null
+  minute: null
+- timestamp: '2:27'
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: Hudson
+  minute: null
+- timestamp: '3:01'
+  scoring_team: H
+  scoring_player: Milan
+  assist_player: null
+  minute: null
+- timestamp: '5:10'
+  scoring_team: H
+  scoring_player: Hudson
+  assist_player: Jamie
+  minute: null
+- timestamp: '6:30'
+  scoring_team: H
+  scoring_player: Lenny
+  assist_player: Joshua
+  minute: null
+- timestamp: '10:24'
+  scoring_team: H
+  scoring_player: Aman
+  assist_player: Lenny
+  minute: null
+- timestamp: '12:52'
+  scoring_team: H
+  scoring_player: Joshua
+  assist_player: null
+  minute: null

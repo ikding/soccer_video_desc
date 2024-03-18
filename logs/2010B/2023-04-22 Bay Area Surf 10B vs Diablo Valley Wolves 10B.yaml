@@ -1,0 +1,23 @@
+date: 2023-04-22
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: Diablo Valley Wolves 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: Diablo Valley
+goals:
+- timestamp: '4:28'
+  scoring_team: A
+  scoring_player: 36
+  assist_player: 9
+  minute: null
+- timestamp: '11:22'
+  scoring_team: H
+  scoring_player: Adolfo
+  assist_player: Taku
+  minute: null
+- timestamp: '12:39'
+  scoring_team: A
+  scoring_player: 18
+  assist_player: 14
+  minute: null

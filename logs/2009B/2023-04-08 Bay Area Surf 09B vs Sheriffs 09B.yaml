@@ -1,0 +1,13 @@
+date: 2023-04-08
+division: MLS Next U14
+home_team: Bay Area Surf 09B
+away_team: Sheriffs 09B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '8:46'
+  scoring_team: A
+  scoring_player: 5
+  assist_player: FK
+  minute: null

@@ -1,0 +1,33 @@
+date: 2023-05-14
+division: NorCal U11 Gold 1
+home_team: Bay Area Surf 13B Red
+away_team: San Jose Rush 13B Premier
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:11'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Owen
+  minute: null
+- timestamp: '1:58'
+  scoring_team: H
+  scoring_player: Eli
+  assist_player: null
+  minute: null
+- timestamp: '4:20'
+  scoring_team: H
+  scoring_player: Ayden
+  assist_player: Christian
+  minute: null
+- timestamp: '5:13'
+  scoring_team: H
+  scoring_player: Alexander
+  assist_player: Dominic
+  minute: null
+- timestamp: '7:39'
+  scoring_team: A
+  scoring_player: 10
+  assist_player: 15
+  minute: null

@@ -1,0 +1,33 @@
+date: 2023-03-19
+division: MLS Next U14
+home_team: Bay Area Surf 09B
+away_team: Ballistic United 09B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 0:37
+  scoring_team: H
+  scoring_player: OG
+  assist_player: null
+  minute: null
+- timestamp: '2:02'
+  scoring_team: H
+  scoring_player: Karsten
+  assist_player: 39
+  minute: null
+- timestamp: '3:07'
+  scoring_team: H
+  scoring_player: Nolan C
+  assist_player: JC
+  minute: null
+- timestamp: '6:20'
+  scoring_team: H
+  scoring_player: Taku
+  assist_player: null
+  minute: null
+- timestamp: '7:50'
+  scoring_team: H
+  scoring_player: Karsten
+  assist_player: null
+  minute: null

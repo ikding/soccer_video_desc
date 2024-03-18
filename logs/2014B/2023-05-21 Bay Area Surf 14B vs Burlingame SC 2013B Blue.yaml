@@ -1,0 +1,48 @@
+date: 2023-05-21
+division: NorCal U10 Gold
+home_team: Bay Area Surf 14B
+away_team: Burlingame SC 2013B Blue
+round: null
+home_team_abbrev: null
+away_team_abbrev: Burlingame
+goals:
+- timestamp: 0:28
+  scoring_team: A
+  scoring_player: 39
+  assist_player: 34
+  minute: null
+- timestamp: '2:40'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: null
+  minute: null
+- timestamp: '3:20'
+  scoring_team: H
+  scoring_player: Milan
+  assist_player: Luke
+  minute: null
+- timestamp: '3:44'
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: null
+  minute: null
+- timestamp: '4:12'
+  scoring_team: A
+  scoring_player: 14
+  assist_player: '?'
+  minute: null
+- timestamp: '5:49'
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: 36
+  minute: null
+- timestamp: '7:12'
+  scoring_team: H
+  scoring_player: Jamie
+  assist_player: Lenny
+  minute: null
+- timestamp: '10:29'
+  scoring_team: H
+  scoring_player: Hudson
+  assist_player: Thomas
+  minute: null

@@ -1,0 +1,23 @@
+date: 2023-03-05
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: San Francisco Elite 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: SF Elite
+goals:
+- timestamp: 0:50
+  scoring_team: H
+  scoring_player: Ethan
+  assist_player: Edson
+  minute: null
+- timestamp: '4:58'
+  scoring_team: H
+  scoring_player: Adrian
+  assist_player: Ryker
+  minute: null
+- timestamp: '8:20'
+  scoring_team: A
+  scoring_player: 99
+  assist_player: null
+  minute: null

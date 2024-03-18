@@ -1,0 +1,38 @@
+date: 2023-03-12
+division: MLS Next U13
+home_team: Bay Area Surf 10B
+away_team: San Francisco Seals 10B
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '2:12'
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: null
+  minute: null
+- timestamp: '4:36'
+  scoring_team: A
+  scoring_player: 39
+  assist_player: '?'
+  minute: null
+- timestamp: '4:36'
+  scoring_team: A
+  scoring_player: 39
+  assist_player: 26
+  minute: null
+- timestamp: '12:37'
+  scoring_team: H
+  scoring_player: Alex
+  assist_player: Galvan
+  minute: null
+- timestamp: '14:19'
+  scoring_team: A
+  scoring_player: 29
+  assist_player: FK
+  minute: null
+- timestamp: '15:10'
+  scoring_team: A
+  scoring_player: 27
+  assist_player: 29
+  minute: null

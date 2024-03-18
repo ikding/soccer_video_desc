@@ -1,0 +1,28 @@
+date: 2023-02-18
+division: NorCal Supercopa U10
+home_team: Bay Area Surf 13B Red
+away_team: Juventus Academy SV 13B Nero
+round: null
+home_team_abbrev: null
+away_team_abbrev: Juventus
+goals:
+- timestamp: '7:19'
+  scoring_team: H
+  scoring_player: Eli
+  assist_player: Galvan
+  minute: null
+- timestamp: '8:00'
+  scoring_team: A
+  scoring_player: 10
+  assist_player: null
+  minute: null
+- timestamp: '8:43'
+  scoring_team: A
+  scoring_player: 23
+  assist_player: null
+  minute: null
+- timestamp: '13:43'
+  scoring_team: A
+  scoring_player: 13
+  assist_player: null
+  minute: null

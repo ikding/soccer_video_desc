@@ -1,0 +1,63 @@
+date: 2023-04-22
+division: NorCal U11 Gold 1
+home_team: Bay Area Surf 13B Red
+away_team: SF United 13B Gardel
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: '1:11'
+  scoring_team: H
+  scoring_player: Eli
+  assist_player: null
+  minute: null
+- timestamp: '2:57'
+  scoring_team: A
+  scoring_player: 27
+  assist_player: 12
+  minute: null
+- timestamp: '3:15'
+  scoring_team: H
+  scoring_player: Luke
+  assist_player: null
+  minute: null
+- timestamp: '4:03'
+  scoring_team: H
+  scoring_player: Owen
+  assist_player: Alexander
+  minute: null
+- timestamp: '5:05'
+  scoring_team: A
+  scoring_player: 8
+  assist_player: null
+  minute: null
+- timestamp: '8:07'
+  scoring_team: H
+  scoring_player: Ryan
+  assist_player: Alexander
+  minute: null
+- timestamp: '8:39'
+  scoring_team: H
+  scoring_player: Ayden
+  assist_player: Alexander
+  minute: null
+- timestamp: '9:08'
+  scoring_team: A
+  scoring_player: 9
+  assist_player: 6
+  minute: null
+- timestamp: '10:08'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Ayden
+  minute: null
+- timestamp: '11:22'
+  scoring_team: H
+  scoring_player: Dilan
+  assist_player: Alexander
+  minute: null
+- timestamp: '12:56'
+  scoring_team: A
+  scoring_player: 9
+  assist_player: null
+  minute: null
