@@ -1,0 +1,48 @@
+date: 2024-03-17
+division: NorCal U12 Premier
+home_team: Bay Area Surf 13B Pre-MLS
+away_team: SF United 12B Gardel
+round: null
+home_team_abbrev: null
+away_team_abbrev: null
+goals:
+- timestamp: 1:36
+  scoring_team: H
+  scoring_player: Mateo
+  assist_player: FK
+  minute: 4
+- timestamp: 9:21
+  scoring_team: H
+  scoring_player: Cameron
+  assist_player: Owen
+  minute: 14
+- timestamp: 21:07
+  scoring_team: H
+  scoring_player: Christian
+  assist_player: Eli
+  minute: 30
+- timestamp: 30:29
+  scoring_team: H
+  scoring_player: Galvan
+  assist_player: Eli
+  minute: 40
+- timestamp: 34:39
+  scoring_team: H
+  scoring_player: Ryan
+  assist_player: FK
+  minute: 46
+- timestamp: 37:05
+  scoring_team: A
+  scoring_player: 4
+  assist_player: PK
+  minute: 50
+- timestamp: 38:35
+  scoring_team: H
+  scoring_player: Joshua
+  assist_player: Dominic
+  minute: 52
+- timestamp: 43:48
+  scoring_team: H
+  scoring_player: Dominic
+  assist_player: Joshua
+  minute: 59
