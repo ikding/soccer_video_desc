@@ -184,7 +184,7 @@ def soccer_game_description(
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    parser = argparse.ArgumentParser(description="Get intput yaml file")
+    parser = argparse.ArgumentParser(description="Get input yaml file")
     parser.add_argument(
         "yaml_fpath", type=str, help="Yaml file path containing game logs"
     )
